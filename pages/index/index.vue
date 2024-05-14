@@ -5,11 +5,14 @@
 		<div class="logout"></div>
 	</div>
 	<div class="planebox">
-		
+		<gonggao-vue v-if="mark==1"></gonggao-vue>
+		<yinyong-vue v-if="mark==2"></yinyong-vue>
 	</div>
 </template>
 
 <script>
+	import gonggaoVue from '../gonggao/gonggao.vue'
+	import yinyongVue from '../yinyong/yinyong.vue'
 	export default {
 		data() {
 			return {
@@ -27,13 +30,17 @@
 		onLoad() {
 
 		},
+		components:{
+			gonggaoVue:gonggaoVue,
+			yinyongVue:yinyongVue
+		},
 		methods: {
 
 		}
 	}
 </script>
 
-<style>
+<style scoped>
 	page{
 		height: 100%!important;
 		background-color: #EEECF3;
@@ -47,8 +54,11 @@
 		position: absolute;
 		left: 300px;;
 		bottom: 0;
+		display: flex;
 		border-top-left-radius: 32px;
 		border-top-right-radius: 32px;
+		overflow: hidden;
+		overflow-x: auto;
 	}
 	.bookmart{
 		height: calc(100% - 80px);

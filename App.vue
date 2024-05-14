@@ -14,5 +14,15 @@
 </script>
 
 <style>
+	@keyframes slidein{
+		from{
+			opacity: 0;
+			transform: translateX(40px);
+		}
+		to{
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
 	/*每个页面公共css */
 </style>
