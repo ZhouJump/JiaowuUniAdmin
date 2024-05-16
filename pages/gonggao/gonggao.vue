@@ -1,8 +1,14 @@
 <template>
 	<view class="main">
 		<view class="gonggao">
-			<view :style="{opacity:cast=='hidden'?'0.4':'1'}" @click="chose=0" class="cast"><i class="bi bi-megaphone-fill"></i> {{cast}}</view>
-			<view @click="chose=1" class="banner"></view>
+			<view :style="{opacity:cast.isShow?'1':'0.4'}" @click="chose=0" class="cast"><i class="bi bi-megaphone-fill"></i> {{cast.info}}</view>
+			<view @click="chose=1" class="banner">
+				<swiper autoplay circular>
+					<swiper-item v-for="item in bannerlist" >
+						<image mode="aspectFill" class="img" :src="item.imgUrl"></image>
+					</swiper-item>
+				</swiper>
+			</view>
 			<view class="compnent">
 				<view class="com"></view>
 				<view class="com"></view>
@@ -22,12 +28,16 @@
 		data() {
 			return {
 				chose:-1,
-				cast:'获取中'
+				cast:{info:'获取值中',isShow:true},
+				bannerlist:[]
 			}
 		},
 		methods: {
 			 async getcast(){
-				 this.cast = await castInfo.getcastinfo()
+				 let res = await castInfo.getcastinfo()
+				 this.cast = res[0]
+				 let banner = await castInfo.getbanner()
+				 this.bannerlist = banner
 			 }
 		},
 		mounted() {
@@ -47,6 +57,14 @@
 		animation-name: slidein;
 		animation-duration: 200ms;
 		
+	}
+	.img{
+		width: 100%;
+		height: 100%;
+	}
+	swiper{
+		width: 100%;
+		height: 100%;
 	}
 	.gonggao{
 		width: 600px;
@@ -73,6 +91,7 @@
 		margin-top: 16px;
 		border-radius: 16px;
 		background-color: white;
+		overflow: hidden;
 	}
 	.compnent{
 		width: 96%;

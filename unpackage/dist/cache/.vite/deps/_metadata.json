@@ -1,8 +1,15 @@
 {
-  "hash": "d6f5c320",
+  "hash": "8e0b56cb",
   "configHash": "c63f024c",
-  "lockfileHash": "001b4328",
-  "browserHash": "6ea6f9c9",
-  "optimized": {},
+  "lockfileHash": "6ee6570b",
+  "browserHash": "3137ea68",
+  "optimized": {
+    "vue-turnstile": {
+      "src": "../../../../../node_modules/vue-turnstile/dist/vue-turnstile.js",
+      "file": "vue-turnstile.js",
+      "fileHash": "8b2e481b",
+      "needsInterop": false
+    }
+  },
   "chunks": {}
 }

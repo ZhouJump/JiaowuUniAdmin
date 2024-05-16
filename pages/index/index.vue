@@ -2,7 +2,7 @@
 	<div class="title"><image src="../../static/logo.png"></image><text>莆院助手后台</text></div>
 	<div class="bookmart">
 		<div @click="mark=index" class="mark" :class="{markchoce:index == mark}" v-for="(item,index) in bookmark"><i :class="['bi',item.icon]"></i> {{item.name}}</div>
-		<div class="logout"></div>
+		<div @click="logout" class="mark log"><i class="bi bi-box-arrow-left"></i> <text class="logout">退出登录</text><text class="usernanme">{{username}}</text></div>
 	</div>
 	<div class="planebox">
 		<gonggao-vue v-if="mark==1"></gonggao-vue>
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+	const admin = uniCloud.importObject('adminLogin')
 	import gonggaoVue from '../gonggao/gonggao.vue'
 	import yinyongVue from '../yinyong/yinyong.vue'
 	export default {
@@ -25,6 +26,8 @@
 					{name:'管理员',url:'',icon:'bi-person-gear'},
 				],
 				mark:0,
+				token:uni.getStorageSync('token'),
+				username:''
 			}
 		},
 		onLoad() {
@@ -35,7 +38,28 @@
 			yinyongVue:yinyongVue
 		},
 		methods: {
-
+			async checklogin(){
+				let state = await admin.isLogin(this.token)
+				if(state == 'nologin')
+					{
+						uni.navigateTo({
+							url:'/pages/login/login'
+						})
+					}
+				else{
+					this.username = state
+				}
+			},
+			logout(){
+				uni.removeStorageSync('token')
+				this.token = ''
+				this.$nextTick(()=>{
+					this.checklogin()
+				})
+			}
+		},
+		mounted() {
+			this.checklogin()
 		}
 	}
 </script>
@@ -47,6 +71,18 @@
 		margin: 0;
 		overflow: hidden;
 	}
+	.logout{
+		position: absolute;
+		opacity: 0;
+		transition-duration: 200ms;
+	}
+	.usernanme{
+		position: absolute;
+		opacity: 1;
+		transition-duration: 200ms;
+	}
+	.log:hover .logout{opacity: 1;}
+	.log:hover .usernanme{opacity: 0;}
 	.planebox{
 		height: calc(100% - 80px);
 		width: calc(100% - 320px);
@@ -68,6 +104,7 @@
 		left: 0;
 	}
 	.mark{
+		position: relative;
 		height: 60px;
 		line-height: 60px;
 		width: 100%;
@@ -114,5 +151,9 @@
 		color: #737489;
 		font-size: 24px;
 		
+	}
+	.log{
+		position: absolute;
+		bottom: 20px;
 	}
 </style>
