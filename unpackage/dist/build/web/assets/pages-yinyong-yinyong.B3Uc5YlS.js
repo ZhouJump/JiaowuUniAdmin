@@ -1,0 +1,1 @@
+import{h as a,w as s,m as e,o as t,d as o}from"./index-CQCDjVwL.js";import{_ as r}from"./_plugin-vue_export-helper.BCo6x5W8.js";const d=r({data:()=>({}),methods:{}},[["render",function(r,d,n,p,c,f){const m=e;return t(),a(m,{class:"main"},{default:s((()=>[o(m,{class:"app"})])),_:1})}],["__scopeId","data-v-fc18bf41"]]);export{d as default};
