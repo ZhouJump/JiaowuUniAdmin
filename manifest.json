@@ -82,7 +82,7 @@
             "mode" : "hash",
             "base" : ""
         },
-        "title" : "u掌上教务后台",
+        "title" : "掌上教务后台",
         "optimization" : {
             "treeShaking" : {
                 "enable" : true
