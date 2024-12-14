@@ -96,6 +96,5 @@
 		"echarts": "^5.5.0"
 	},
 	"devDependencies": {
-		"sass": "^1.80.6"
 	}
 }

@@ -59,7 +59,7 @@
 			async getgoodscharts(){
 				//获取商品
 				let allgoods = await goods.getAllGoods()
-				console.log(allgoods)
+				//console.log(allgoods)
 				//设置option
 				let goodsoption = {
 					title: {text: '商品增量趋势'},
@@ -163,22 +163,26 @@
 	.link{
 		border-radius: 4px;
 		width: calc(100% - 30px);
-		height: 115px;
 		box-sizing: border-box;
 		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 15px;
+		grid-gap: 15px;
 	}
 	.linkitem{
 		cursor: default;
-		width: 20%;
+		width: 15%;
 		height: 100px;
-		margin-top: 15px;
 		box-shadow:0 0 4px 4px #eeeeee;
 		text-align: center;
 		padding: 15px;
 		box-sizing: border-box;
-		margin-right: 15px;
 		color: #4d4d4d;
 		transition-duration: 100ms;
+	}
+	.linkitem:last-child{
+		margin-right: auto;
 	}
 	.linkitem:nth-last-child(1){
 		margin-right: 0;
@@ -198,5 +202,14 @@
 	.editcast{
 		float: right;
 		cursor: default;
+	}
+	@media (max-width:600px) {
+		.linkitem{
+			width: 30%;
+		}
+		.goodscharts,.usercharts{
+			width: calc(100% - 22px);
+			height: 300px;
+		}
 	}
 </style>
