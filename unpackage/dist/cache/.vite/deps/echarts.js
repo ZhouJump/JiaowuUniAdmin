@@ -4,7 +4,7 @@ var __export = (target, all) => {
     __defProp(target, name, { get: all[name], enumerable: true });
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/tslib/tslib.es6.js
+// ../../../../project/JiaowuUniAdmin/node_modules/tslib/tslib.es6.js
 var extendStatics = function(d, b) {
   extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
     d2.__proto__ = b2;
@@ -25,7 +25,7 @@ function __extends(d, b) {
   d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/zrender.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/zrender.js
 var zrender_exports = {};
 __export(zrender_exports, {
   dispose: () => dispose,
@@ -38,7 +38,7 @@ __export(zrender_exports, {
   version: () => version
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/env.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/env.js
 var Browser = /* @__PURE__ */ function() {
   function Browser2() {
     this.firefox = false;
@@ -109,7 +109,7 @@ function detect(ua, env2) {
 }
 var env_default = env;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/util.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/util.js
 var util_exports = {};
 __export(util_exports, {
   HashMap: () => HashMap,
@@ -164,7 +164,7 @@ __export(util_exports, {
   trim: () => trim
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/platform.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/platform.js
 var DEFAULT_FONT_SIZE = 12;
 var DEFAULT_FONT_FAMILY = "sans-serif";
 var DEFAULT_FONT = DEFAULT_FONT_SIZE + "px " + DEFAULT_FONT_FAMILY;
@@ -235,7 +235,7 @@ function setPlatformAPI(newPlatformApis) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/util.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/util.js
 var BUILTIN_OBJECT = reduce([
   "Function",
   "RegExp",
@@ -743,7 +743,7 @@ function noop() {
 }
 var RADIAN_TO_DEGREE = 180 / Math.PI;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/vector.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/vector.js
 var vector_exports = {};
 __export(vector_exports, {
   add: () => add,
@@ -882,7 +882,7 @@ function max(out2, v12, v22) {
   return out2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/mixin/Draggable.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/mixin/Draggable.js
 var Param = /* @__PURE__ */ function() {
   function Param2(target, e2) {
     this.target = target;
@@ -950,7 +950,7 @@ var Draggable = function() {
 }();
 var Draggable_default = Draggable;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/Eventful.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/Eventful.js
 var Eventful = function() {
   function Eventful2(eventProcessors) {
     if (eventProcessors) {
@@ -1103,7 +1103,7 @@ var Eventful = function() {
 }();
 var Eventful_default = Eventful;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/fourPointsTransform.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/fourPointsTransform.js
 var LN2 = Math.log(2);
 function determinant(rows, rank, rowStart, rowMask, colMask, detCache) {
   var cacheKey = rowMask + "-" + colMask;
@@ -1161,7 +1161,7 @@ function buildTransformer(src, dest) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/dom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/dom.js
 var EVENT_SAVED_PROP = "___zrEVENTSAVED";
 var _calcOut = [];
 function transformLocalCoord(out2, elFrom, elTarget, inX, inY) {
@@ -1247,7 +1247,7 @@ function encodeHTML(source) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/event.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/event.js
 var MOUSE_EVENT_REG = /^(?:mouse|pointer|contextmenu|drag|drop)|click/;
 var _calcOut2 = [];
 var firefoxNotSupportOffsetXY = env_default.browser.firefox && +env_default.browser.version.split(".")[0] < 39;
@@ -1338,7 +1338,7 @@ function isMiddleOrRightButtonOnMouseUpDown(e2) {
   return e2.which === 2 || e2.which === 3;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/GestureMgr.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/GestureMgr.js
 var GestureMgr = function() {
   function GestureMgr2() {
     this._track = [];
@@ -1417,7 +1417,7 @@ var recognizers = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/matrix.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/matrix.js
 var matrix_exports = {};
 __export(matrix_exports, {
   clone: () => clone3,
@@ -1532,7 +1532,7 @@ function clone3(a) {
   return b;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/Point.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/Point.js
 var Point = function() {
   function Point2(x, y) {
     this.x = x || 0;
@@ -1663,7 +1663,7 @@ var Point = function() {
 }();
 var Point_default = Point;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/BoundingRect.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/BoundingRect.js
 var mathMin = Math.min;
 var mathMax = Math.max;
 var lt = new Point_default();
@@ -1864,7 +1864,7 @@ var BoundingRect = function() {
 }();
 var BoundingRect_default = BoundingRect;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/Handler.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/Handler.js
 var SILENT = "silent";
 function makeEventPacket(eveType, targetInfo, event) {
   return {
@@ -2151,7 +2151,7 @@ function isOutsideBoundary(handlerInstance, x, y) {
 }
 var Handler_default = Handler;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/timsort.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/timsort.js
 var DEFAULT_MIN_MERGE = 32;
 var DEFAULT_MIN_GALLOPING = 7;
 function minRunLength(n) {
@@ -2660,12 +2660,12 @@ function sort(array, compare2, lo, hi) {
   ts.forceMergeRuns();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/constants.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/constants.js
 var REDRAW_BIT = 1;
 var STYLE_CHANGED_BIT = 2;
 var SHAPE_CHANGED_BIT = 4;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/Storage.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/Storage.js
 var invalidZErrorLogged = false;
 function logInvalidZError() {
   if (invalidZErrorLogged) {
@@ -2818,14 +2818,14 @@ var Storage = function() {
 }();
 var Storage_default = Storage;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/animation/requestAnimationFrame.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/animation/requestAnimationFrame.js
 var requestAnimationFrame;
 requestAnimationFrame = env_default.hasGlobalWindow && (window.requestAnimationFrame && window.requestAnimationFrame.bind(window) || window.msRequestAnimationFrame && window.msRequestAnimationFrame.bind(window) || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame) || function(func) {
   return setTimeout(func, 16);
 };
 var requestAnimationFrame_default = requestAnimationFrame;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/animation/easing.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/animation/easing.js
 var easingFuncs = {
   linear: function(k) {
     return k;
@@ -3012,7 +3012,7 @@ var easingFuncs = {
 };
 var easing_default = easingFuncs;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/curve.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/curve.js
 var mathPow = Math.pow;
 var mathSqrt = Math.sqrt;
 var EPSILON = 1e-8;
@@ -3341,7 +3341,7 @@ function quadraticLength(x0, y0, x1, y1, x2, y2, iteration) {
   return d;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/animation/cubicEasing.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/animation/cubicEasing.js
 var regexp = /cubic-bezier\(([0-9,\.e ]+)\)/;
 function createCubicEasingFunc(cubicEasingStr) {
   var cubic = cubicEasingStr && regexp.exec(cubicEasingStr);
@@ -3361,7 +3361,7 @@ function createCubicEasingFunc(cubicEasingStr) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/animation/Clip.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/animation/Clip.js
 var Clip = function() {
   function Clip2(opts) {
     this._inited = false;
@@ -3421,7 +3421,7 @@ var Clip = function() {
 }();
 var Clip_default = Clip;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/color.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/color.js
 var color_exports = {};
 __export(color_exports, {
   fastLerp: () => fastLerp,
@@ -3439,7 +3439,7 @@ __export(color_exports, {
   toHex: () => toHex
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/LRU.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/LRU.js
 var Entry = /* @__PURE__ */ function() {
   function Entry2(val) {
     this.value = val;
@@ -3545,7 +3545,7 @@ var LRU = function() {
 }();
 var LRU_default = LRU;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/color.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/color.js
 var kCSSColorTable = {
   "transparent": [0, 0, 0, 0],
   "aliceblue": [240, 248, 255, 1],
@@ -4031,7 +4031,7 @@ function liftColor(color) {
   return color;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/helper.js
 var mathRound = Math.round;
 function normalizeColor(color) {
   var opacity;
@@ -4159,7 +4159,7 @@ var encodeBase64 = function() {
   };
 }();
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/animation/Animator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/animation/Animator.js
 var arraySlice = Array.prototype.slice;
 function interpolateNumber(p0, p1, percent) {
   return (p1 - p0) * percent + p0;
@@ -4853,7 +4853,7 @@ var Animator = function() {
 }();
 var Animator_default = Animator;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/animation/Animation.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/animation/Animation.js
 function getTime() {
   return (/* @__PURE__ */ new Date()).getTime();
 }
@@ -4994,7 +4994,7 @@ var Animation = function(_super) {
 }(Eventful_default);
 var Animation_default = Animation;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/dom/HandlerProxy.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/dom/HandlerProxy.js
 var TOUCH_CLICK_DELAY = 300;
 var globalEventSupported = env_default.domSupported;
 var localNativeListenerNames = function() {
@@ -5289,7 +5289,7 @@ var HandlerDomProxy = function(_super) {
 }(Eventful_default);
 var HandlerProxy_default = HandlerDomProxy;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/config.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/config.js
 var dpr = 1;
 if (env_default.hasGlobalWindow) {
   dpr = Math.max(window.devicePixelRatio || window.screen && window.screen.deviceXDPI / window.screen.logicalXDPI || 1, 1);
@@ -5300,7 +5300,7 @@ var DARK_LABEL_COLOR = "#333";
 var LIGHT_LABEL_COLOR = "#ccc";
 var LIGHTER_LABEL_COLOR = "#eee";
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/Transformable.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/Transformable.js
 var mIdentity = identity;
 var EPSILON3 = 5e-5;
 function isNotAroundZero2(val) {
@@ -5532,7 +5532,7 @@ function copyTransform(target, source) {
 }
 var Transformable_default = Transformable;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/text.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/text.js
 var textWidthCache = {};
 function getWidth(text, font) {
   font = font || DEFAULT_FONT;
@@ -5694,7 +5694,7 @@ function calculateTextPosition(out2, opts, rect) {
   return out2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/Element.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/Element.js
 var PRESERVED_NORMAL_STATE = "__zr_normal__";
 var PRIMARY_STATES_KEYS = TRANSFORMABLE_PROPS.concat(["ignore"]);
 var DEFAULT_ANIMATABLE_MAP = reduce(TRANSFORMABLE_PROPS, function(obj, key) {
@@ -6688,7 +6688,7 @@ function animateToShallow(animatable, topKey, animateObj, target, cfg, animation
 }
 var Element_default = Element;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Group.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Group.js
 var Group = function(_super) {
   __extends(Group5, _super);
   function Group5(opts) {
@@ -6863,7 +6863,7 @@ var Group = function(_super) {
 Group.prototype.type = "group";
 var Group_default = Group;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/zrender.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/zrender.js
 var painterCtors = {};
 var instances = {};
 function delInstance(id) {
@@ -7165,7 +7165,7 @@ function registerSSRDataGetter(getter) {
 }
 var version = "5.5.0";
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/number.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/number.js
 var RADIAN_EPSILON = 1e-4;
 var ROUND_SUPPORTED_PRECISION_MAX = 20;
 function _trim(str) {
@@ -7462,7 +7462,7 @@ function getLeastCommonMultiple(a, b) {
   return a * b / getGreatestCommonDividor(a, b);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/log.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/log.js
 var ECHARTS_PREFIX = "[ECharts] ";
 var storedLogs = {};
 var hasConsole = typeof console !== "undefined" && console.warn && console.log;
@@ -7534,7 +7534,7 @@ function throwError(msg) {
   throw new Error(msg);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/model.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/model.js
 function interpolateNumber2(p0, p1, percent) {
   return (p1 - p0) * percent + p0;
 }
@@ -7979,7 +7979,7 @@ function interpolateRawValues(data, precision, sourceValue, targetValue, percent
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/clazz.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/clazz.js
 var TYPE_DELIMITER = ".";
 var IS_CONTAINER = "___EC__COMPONENT__CONTAINER___";
 var IS_EXTENDED_CLASS = "___EC__EXTENDED_CLASS___";
@@ -8135,7 +8135,7 @@ function enableClassManagement(target) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/makeStyleMapper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/makeStyleMapper.js
 function makeStyleMapper(properties, ignoreParent) {
   for (var i = 0; i < properties.length; i++) {
     if (!properties[i][1]) {
@@ -8159,7 +8159,7 @@ function makeStyleMapper(properties, ignoreParent) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/areaStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/areaStyle.js
 var AREA_STYLE_KEY_MAP = [
   ["fill", "color"],
   ["shadowBlur"],
@@ -8183,7 +8183,7 @@ var AreaStyleMixin = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/image.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/image.js
 var globalImageCache = new LRU_default(50);
 function findExistImage(newImageOrSrc) {
   if (typeof newImageOrSrc === "string") {
@@ -8233,7 +8233,7 @@ function isImageReady(image) {
   return image && image.width && image.height;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/parseText.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/parseText.js
 var STYLE_REG = /\{([a-zA-Z0-9_]+)\|([^}]*)\}/g;
 function truncateText(text, containerWidth, font, ellipsis, options) {
   if (!containerWidth) {
@@ -8672,7 +8672,7 @@ function wrapText(text, font, lineWidth, isBreakAll, lastAccumWidth) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Displayable.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Displayable.js
 var STYLE_MAGIC_KEY = "__zr_style_" + Math.round(Math.random() * 10);
 var DEFAULT_COMMON_STYLE = {
   shadowBlur: 0,
@@ -8979,7 +8979,7 @@ function isDisplayableCulled(el, width, height) {
 }
 var Displayable_default = Displayable;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/bbox.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/bbox.js
 var mathMin2 = Math.min;
 var mathMax2 = Math.max;
 var mathSin = Math.sin;
@@ -9102,7 +9102,7 @@ function fromArc(x, y, rx, ry, startAngle, endAngle, anticlockwise, min3, max3) 
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/PathProxy.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/PathProxy.js
 var CMD = {
   M: 1,
   L: 2,
@@ -9790,7 +9790,7 @@ var PathProxy = function() {
 }();
 var PathProxy_default = PathProxy;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/line.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/line.js
 function containStroke(x0, y0, x1, y1, lineWidth, x, y) {
   if (lineWidth === 0) {
     return false;
@@ -9812,7 +9812,7 @@ function containStroke(x0, y0, x1, y1, lineWidth, x, y) {
   return _s <= _l / 2 * _l / 2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/cubic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/cubic.js
 function containStroke2(x0, y0, x1, y1, x2, y2, x3, y3, lineWidth, x, y) {
   if (lineWidth === 0) {
     return false;
@@ -9825,7 +9825,7 @@ function containStroke2(x0, y0, x1, y1, x2, y2, x3, y3, lineWidth, x, y) {
   return d <= _l / 2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/quadratic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/quadratic.js
 function containStroke3(x0, y0, x1, y1, x2, y2, lineWidth, x, y) {
   if (lineWidth === 0) {
     return false;
@@ -9838,7 +9838,7 @@ function containStroke3(x0, y0, x1, y1, x2, y2, lineWidth, x, y) {
   return d <= _l / 2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/util.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/util.js
 var PI23 = Math.PI * 2;
 function normalizeRadian(angle) {
   angle %= PI23;
@@ -9848,7 +9848,7 @@ function normalizeRadian(angle) {
   return angle;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/arc.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/arc.js
 var PI24 = Math.PI * 2;
 function containStroke4(cx, cy, r, startAngle, endAngle, anticlockwise, lineWidth, x, y) {
   if (lineWidth === 0) {
@@ -9882,7 +9882,7 @@ function containStroke4(cx, cy, r, startAngle, endAngle, anticlockwise, lineWidt
   return angle >= startAngle && angle <= endAngle || angle + PI24 >= startAngle && angle + PI24 <= endAngle;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/windingLine.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/windingLine.js
 function windingLine(x0, y0, x1, y1, x, y) {
   if (y > y0 && y > y1 || y < y0 && y < y1) {
     return 0;
@@ -9899,7 +9899,7 @@ function windingLine(x0, y0, x1, y1, x, y) {
   return x_ === x ? Infinity : x_ > x ? dir3 : 0;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/path.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/path.js
 var CMD2 = PathProxy_default.CMD;
 var PI25 = Math.PI * 2;
 var EPSILON4 = 1e-4;
@@ -10179,7 +10179,7 @@ function containStroke5(pathProxy, lineWidth, x, y) {
   return containPath(pathProxy, lineWidth, true, x, y);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Path.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Path.js
 var DEFAULT_PATH_STYLE = defaults({
   fill: "#000",
   stroke: null,
@@ -10561,7 +10561,7 @@ var Path = function(_super) {
 }(Displayable_default);
 var Path_default = Path;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/TSpan.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/TSpan.js
 var DEFAULT_TSPAN_STYLE = defaults({
   strokeFirst: true,
   font: DEFAULT_FONT,
@@ -10620,7 +10620,7 @@ var TSpan = function(_super) {
 TSpan.prototype.type = "tspan";
 var TSpan_default = TSpan;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Image.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Image.js
 var DEFAULT_IMAGE_STYLE = defaults({
   x: 0,
   y: 0
@@ -10687,7 +10687,7 @@ var ZRImage = function(_super) {
 ZRImage.prototype.type = "image";
 var Image_default = ZRImage;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/roundRect.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/roundRect.js
 function buildPath(ctx, shape) {
   var x = shape.x;
   var y = shape.y;
@@ -10759,7 +10759,7 @@ function buildPath(ctx, shape) {
   r1 !== 0 && ctx.arc(x + r1, y + r1, r1, Math.PI, Math.PI * 1.5);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/subPixelOptimize.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/subPixelOptimize.js
 var round2 = Math.round;
 function subPixelOptimizeLine(outputShape, inputShape, style) {
   if (!inputShape) {
@@ -10815,7 +10815,7 @@ function subPixelOptimize(position2, lineWidth, positiveOrNegative) {
   return (doubledPosition + round2(lineWidth)) % 2 === 0 ? doubledPosition / 2 : (doubledPosition + (positiveOrNegative ? 1 : -1)) / 2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Rect.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Rect.js
 var RectShape = /* @__PURE__ */ function() {
   function RectShape2() {
     this.x = 0;
@@ -10867,7 +10867,7 @@ var Rect = function(_super) {
 Rect.prototype.type = "rect";
 var Rect_default = Rect;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Text.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Text.js
 var DEFAULT_RICH_TEXT_COLOR = {
   fill: "#000"
 };
@@ -11357,7 +11357,7 @@ function needDrawBackground(style) {
 }
 var Text_default = ZRText;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/innerStore.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/innerStore.js
 var getECData = makeInner();
 var setCommonECData = function(seriesIndex, dataType, dataIdx, el) {
   if (el) {
@@ -11378,7 +11378,7 @@ var setCommonECData = function(seriesIndex, dataType, dataIdx, el) {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/states.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/states.js
 var _highlightNextDigit = 1;
 var _highlightKeyMap = {};
 var getSavedStates = makeInner();
@@ -11905,7 +11905,7 @@ function savePathStates(el) {
   store.selectStroke = selectState.style && selectState.style.stroke || null;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/graphic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/graphic.js
 var graphic_exports = {};
 __export(graphic_exports, {
   Arc: () => Arc_default,
@@ -11958,7 +11958,7 @@ __export(graphic_exports, {
   updateProps: () => updateProps
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/transformPath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/transformPath.js
 var CMD3 = PathProxy_default.CMD;
 var points = [[], [], []];
 var mathSqrt2 = Math.sqrt;
@@ -12039,7 +12039,7 @@ function transformPath(path, m2) {
   path.increaseVersion();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/path.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/path.js
 var mathSqrt3 = Math.sqrt;
 var mathSin3 = Math.sin;
 var mathCos3 = Math.cos;
@@ -12392,7 +12392,7 @@ function clonePath(sourcePath, opts) {
   return path;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Circle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Circle.js
 var CircleShape = /* @__PURE__ */ function() {
   function CircleShape2() {
     this.cx = 0;
@@ -12418,7 +12418,7 @@ var Circle = function(_super) {
 Circle.prototype.type = "circle";
 var Circle_default = Circle;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Ellipse.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Ellipse.js
 var EllipseShape = /* @__PURE__ */ function() {
   function EllipseShape2() {
     this.cx = 0;
@@ -12456,7 +12456,7 @@ var Ellipse = function(_super) {
 Ellipse.prototype.type = "ellipse";
 var Ellipse_default = Ellipse;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/roundSector.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/roundSector.js
 var PI4 = Math.PI;
 var PI26 = PI4 * 2;
 var mathSin4 = Math.sin;
@@ -12672,7 +12672,7 @@ function buildPath2(ctx, shape) {
   ctx.closePath();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Sector.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Sector.js
 var SectorShape = /* @__PURE__ */ function() {
   function SectorShape2() {
     this.cx = 0;
@@ -12705,7 +12705,7 @@ var Sector = function(_super) {
 Sector.prototype.type = "sector";
 var Sector_default = Sector;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Ring.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Ring.js
 var RingShape = /* @__PURE__ */ function() {
   function RingShape2() {
     this.cx = 0;
@@ -12737,7 +12737,7 @@ var Ring = function(_super) {
 Ring.prototype.type = "ring";
 var Ring_default = Ring;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/smoothBezier.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/smoothBezier.js
 function smoothBezier(points4, smooth, isLoop, constraint) {
   var cps = [];
   var v = [];
@@ -12799,7 +12799,7 @@ function smoothBezier(points4, smooth, isLoop, constraint) {
   return cps;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/poly.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/helper/poly.js
 function buildPath3(ctx, shape, closePath) {
   var smooth = shape.smooth;
   var points4 = shape.points;
@@ -12824,7 +12824,7 @@ function buildPath3(ctx, shape, closePath) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Polygon.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Polygon.js
 var PolygonShape = /* @__PURE__ */ function() {
   function PolygonShape2() {
     this.points = null;
@@ -12849,7 +12849,7 @@ var Polygon = function(_super) {
 Polygon.prototype.type = "polygon";
 var Polygon_default = Polygon;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Polyline.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Polyline.js
 var PolylineShape = /* @__PURE__ */ function() {
   function PolylineShape2() {
     this.points = null;
@@ -12881,7 +12881,7 @@ var Polyline = function(_super) {
 Polyline.prototype.type = "polyline";
 var Polyline_default = Polyline;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Line.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Line.js
 var subPixelOptimizeOutputShape2 = {};
 var LineShape = /* @__PURE__ */ function() {
   function LineShape2() {
@@ -12947,7 +12947,7 @@ var Line = function(_super) {
 Line.prototype.type = "line";
 var Line_default = Line;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/BezierCurve.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/BezierCurve.js
 var out = [];
 var BezierCurveShape = /* @__PURE__ */ function() {
   function BezierCurveShape2() {
@@ -13040,7 +13040,7 @@ var BezierCurve = function(_super) {
 BezierCurve.prototype.type = "bezier-curve";
 var BezierCurve_default = BezierCurve;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Arc.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/shape/Arc.js
 var ArcShape = /* @__PURE__ */ function() {
   function ArcShape2() {
     this.cx = 0;
@@ -13083,7 +13083,7 @@ var Arc = function(_super) {
 Arc.prototype.type = "arc";
 var Arc_default = Arc;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/CompoundPath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/CompoundPath.js
 var CompoundPath = function(_super) {
   __extends(CompoundPath2, _super);
   function CompoundPath2() {
@@ -13132,7 +13132,7 @@ var CompoundPath = function(_super) {
 }(Path_default);
 var CompoundPath_default = CompoundPath;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Gradient.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/Gradient.js
 var Gradient = function() {
   function Gradient2(colorStops) {
     this.colorStops = colorStops || [];
@@ -13147,7 +13147,7 @@ var Gradient = function() {
 }();
 var Gradient_default = Gradient;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/LinearGradient.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/LinearGradient.js
 var LinearGradient = function(_super) {
   __extends(LinearGradient2, _super);
   function LinearGradient2(x, y, x2, y2, colorStops, globalCoord) {
@@ -13164,7 +13164,7 @@ var LinearGradient = function(_super) {
 }(Gradient_default);
 var LinearGradient_default = LinearGradient;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/RadialGradient.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/RadialGradient.js
 var RadialGradient = function(_super) {
   __extends(RadialGradient2, _super);
   function RadialGradient2(x, y, r, colorStops, globalCoord) {
@@ -13180,7 +13180,7 @@ var RadialGradient = function(_super) {
 }(Gradient_default);
 var RadialGradient_default = RadialGradient;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/OrientedBoundingRect.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/OrientedBoundingRect.js
 var extent = [0, 0];
 var extent2 = [0, 0];
 var minTv2 = new Point_default();
@@ -13298,7 +13298,7 @@ var OrientedBoundingRect = function() {
 }();
 var OrientedBoundingRect_default = OrientedBoundingRect;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/graphic/IncrementalDisplayable.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/graphic/IncrementalDisplayable.js
 var m = [];
 var IncrementalDisplayable = function(_super) {
   __extends(IncrementalDisplayable2, _super);
@@ -13408,7 +13408,7 @@ var IncrementalDisplayable = function(_super) {
 }(Displayable_default);
 var IncrementalDisplayable_default = IncrementalDisplayable;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/animation/basicTransition.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/animation/basicTransition.js
 var transitionStore = makeInner();
 function getAnimationConfig(animationType, animatableModel, dataIndex, extraOpts, extraDelayParams) {
   var animationPayload;
@@ -13549,7 +13549,7 @@ function getOldStyle(el) {
   return transitionStore(el).oldStyle;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/graphic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/graphic.js
 var mathMax5 = Math.max;
 var mathMin5 = Math.min;
 var _customShapeMap = {};
@@ -13848,7 +13848,7 @@ registerShape("line", Line_default);
 registerShape("bezierCurve", BezierCurve_default);
 registerShape("arc", Arc_default);
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/label/labelStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/label/labelStyle.js
 var EMPTY_OBJ = {};
 function setLabelText(label, labelTexts) {
   for (var i = 0; i < SPECIAL_STATES.length; i++) {
@@ -14210,7 +14210,7 @@ function animateLabelValue(textEl, dataIndex, data, animatableModel, labelFetche
   }, animatableModel, dataIndex, null, during);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/textStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/textStyle.js
 var PATH_COLOR = ["textStyle", "color"];
 var textStyleParams = ["fontStyle", "fontWeight", "fontSize", "fontFamily", "padding", "lineHeight", "rich", "width", "height", "overflow"];
 var tmpText = new Text_default();
@@ -14248,7 +14248,7 @@ var TextStyleMixin = (
 );
 var textStyle_default = TextStyleMixin;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/lineStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/lineStyle.js
 var LINE_STYLE_KEY_MAP = [
   ["lineWidth", "width"],
   ["stroke", "color"],
@@ -14278,7 +14278,7 @@ var LineStyleMixin = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/itemStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/itemStyle.js
 var ITEM_STYLE_KEY_MAP = [
   ["fill", "color"],
   ["stroke", "borderColor"],
@@ -14309,7 +14309,7 @@ var ItemStyleMixin = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/Model.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/Model.js
 var Model = (
   /** @class */
   function() {
@@ -14408,7 +14408,7 @@ mixin(Model, AreaStyleMixin);
 mixin(Model, textStyle_default);
 var Model_default = Model;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/component.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/component.js
 var base = Math.round(Math.random() * 10);
 function getUID(type) {
   return [type || "", base++].join("_");
@@ -14517,7 +14517,7 @@ function inheritDefaultOption(superOption, subOption) {
   return merge(merge({}, superOption, true), subOption, true);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/i18n/langEN.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/i18n/langEN.js
 var langEN_default = {
   time: {
     month: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -14630,7 +14630,7 @@ var langEN_default = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/i18n/langZH.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/i18n/langZH.js
 var langZH_default = {
   time: {
     month: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
@@ -14743,7 +14743,7 @@ var langZH_default = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/locale.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/locale.js
 var LOCALE_ZH = "ZH";
 var LOCALE_EN = "EN";
 var DEFAULT_LOCALE = LOCALE_EN;
@@ -14782,7 +14782,7 @@ function getDefaultLocaleModel() {
 registerLocale(LOCALE_EN, langEN_default);
 registerLocale(LOCALE_ZH, langZH_default);
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/time.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/time.js
 var ONE_SECOND = 1e3;
 var ONE_MINUTE = ONE_SECOND * 60;
 var ONE_HOUR = ONE_MINUTE * 60;
@@ -14999,7 +14999,7 @@ function millisecondsSetterName(isUTC) {
   return isUTC ? "setUTCMilliseconds" : "setMilliseconds";
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/legacy/getTextRect.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/legacy/getTextRect.js
 function getTextRect(text, font, align, verticalAlign, padding, rich, truncate, lineHeight) {
   var textEl = new Text_default({
     style: {
@@ -15016,7 +15016,7 @@ function getTextRect(text, font, align, verticalAlign, padding, rich, truncate, 
   return textEl.getBoundingRect();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/format.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/format.js
 function addCommas(x) {
   if (!isNumeric(x)) {
     return isString(x) ? x : "-";
@@ -15158,7 +15158,7 @@ function windowOpen(link, target) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/layout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/layout.js
 var each2 = each;
 var LOCATION_PARAMS = ["left", "right", "top", "bottom", "width", "height"];
 var HV_NAMES = [["width", "left", "right"], ["height", "top", "bottom"]];
@@ -15413,7 +15413,7 @@ function copyLayoutParams(target, source) {
   return target;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/Component.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/Component.js
 var inner = makeInner();
 var ComponentModel = (
   /** @class */
@@ -15524,7 +15524,7 @@ function getDependencies(componentType) {
 }
 var Component_default = ComponentModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/globalDefault.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/globalDefault.js
 var platform = "";
 if (typeof navigator !== "undefined") {
   platform = navigator.platform || "";
@@ -15612,7 +15612,7 @@ var globalDefault_default = {
   useUTC: false
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/types.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/types.js
 var VISUAL_DIMENSIONS = createHashMap(["tooltip", "label", "itemName", "itemId", "itemGroupId", "itemChildGroupId", "seriesName"]);
 var SOURCE_FORMAT_ORIGINAL = "original";
 var SOURCE_FORMAT_ARRAY_ROWS = "arrayRows";
@@ -15623,7 +15623,7 @@ var SOURCE_FORMAT_UNKNOWN = "unknown";
 var SERIES_LAYOUT_BY_COLUMN = "column";
 var SERIES_LAYOUT_BY_ROW = "row";
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/sourceHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/sourceHelper.js
 var BE_ORDINAL = {
   Must: 1,
   Might: 2,
@@ -15855,7 +15855,7 @@ function doGuessOrdinal(data, sourceFormat, seriesLayoutBy, dimensionsDefine, st
   return BE_ORDINAL.Not;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/internalComponentCreator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/internalComponentCreator.js
 var internalOptionCreatorMap = createHashMap();
 function registerInternalOptionCreator(mainType, creator) {
   assert(internalOptionCreatorMap.get(mainType) == null && creator);
@@ -15878,7 +15878,7 @@ function concatInternalOptions(ecModel, mainType, newCmptOptionList) {
   return newCmptOptionList.concat(internalOptions);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/palette.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/palette.js
 var innerColor = makeInner();
 var innerDecal = makeInner();
 var PaletteMixin = (
@@ -15935,7 +15935,7 @@ function clearPalette(that, inner23) {
   inner23(that).paletteNameMap = {};
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/Global.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/Global.js
 var reCreateSeriesIndices;
 var assertSeriesInitialized;
 var initBase;
@@ -16495,7 +16495,7 @@ function normalizeSetOptionInput(opts) {
 mixin(GlobalModel, PaletteMixin);
 var Global_default = GlobalModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/ExtensionAPI.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/ExtensionAPI.js
 var availableMethods = [
   "getDom",
   "getZr",
@@ -16529,7 +16529,7 @@ var ExtensionAPI = (
 );
 var ExtensionAPI_default = ExtensionAPI;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/CoordinateSystem.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/CoordinateSystem.js
 var coordinateSystemCreators = {};
 var CoordinateSystemManager = (
   /** @class */
@@ -16564,7 +16564,7 @@ var CoordinateSystemManager = (
 );
 var CoordinateSystem_default = CoordinateSystemManager;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/OptionManager.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/OptionManager.js
 var QUERY_REG = /^(min|max)?(.+)$/;
 var OptionManager = (
   /** @class */
@@ -16750,7 +16750,7 @@ function indicesEquals(indices1, indices2) {
 }
 var OptionManager_default = OptionManager;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/preprocessor/helper/compatStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/preprocessor/helper/compatStyle.js
 var each3 = each;
 var isObject2 = isObject;
 var POSSIBLE_STYLES = ["areaStyle", "lineStyle", "nodeStyle", "linkStyle", "chordStyle", "label", "labelLine"];
@@ -17014,7 +17014,7 @@ function globalCompatStyle(option, isTheme) {
   compatTextStyle(toObj(option.tooltip).axisPointer, "label");
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/preprocessor/backwardCompat.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/preprocessor/backwardCompat.js
 function get(opt, path) {
   var pathArr = path.split(",");
   var obj = opt;
@@ -17221,7 +17221,7 @@ function globalBackwardCompat(option, isTheme) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/processor/dataStack.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/processor/dataStack.js
 function dataStack(ecModel) {
   var stackInfoMap = createHashMap();
   ecModel.eachSeries(function(seriesModel) {
@@ -17291,7 +17291,7 @@ function calculateStack(stackInfoList) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/Source.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/Source.js
 var SourceImpl = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -17496,7 +17496,7 @@ function shouldRetrieveDataByName(source) {
   return sourceFormat === SOURCE_FORMAT_OBJECT_ROWS || sourceFormat === SOURCE_FORMAT_KEYED_COLUMNS;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dataProvider.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dataProvider.js
 var _a;
 var _b;
 var _c;
@@ -17745,7 +17745,7 @@ function retrieveRawValue(data, dataIndex, dim) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/dataFormat.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/mixin/dataFormat.js
 var DIMENSION_LABEL_REG = /\{@(.+?)\}/g;
 var DataFormatMixin = (
   /** @class */
@@ -17857,7 +17857,7 @@ function normalizeTooltipFormatResult(result) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/task.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/task.js
 function createTask(define) {
   return new Task(define);
 }
@@ -18037,7 +18037,7 @@ var iterator = /* @__PURE__ */ function() {
   }
 }();
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dataValueHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dataValueHelper.js
 function parseDataValue(value, opt) {
   var dimType = opt && opt.type;
   if (dimType === "ordinal") {
@@ -18159,7 +18159,7 @@ function createFilterComparator(op, rval) {
   return op === "eq" || op === "ne" ? new FilterEqualityComparator(op === "eq", rval) : hasOwn(ORDER_COMPARISON_OP_MAP, op) ? new FilterOrderComparator(op, rval) : null;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/transform.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/transform.js
 var ExternalSource = (
   /** @class */
   function() {
@@ -18444,7 +18444,7 @@ function isSupportedSourceFormat(sourceFormat) {
   return sourceFormat === SOURCE_FORMAT_ARRAY_ROWS || sourceFormat === SOURCE_FORMAT_OBJECT_ROWS;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/DataStore.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/DataStore.js
 var UNDEFINED = "undefined";
 var CtorUint32Array = typeof Uint32Array === UNDEFINED ? Array : Uint32Array;
 var CtorUint16Array = typeof Uint16Array === UNDEFINED ? Array : Uint16Array;
@@ -19224,7 +19224,7 @@ var DataStore = (
 );
 var DataStore_default = DataStore;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/sourceManager.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/sourceManager.js
 var SourceManager = (
   /** @class */
   function() {
@@ -19452,7 +19452,7 @@ function doThrow(errMsg) {
   throw new Error(errMsg);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/tooltipMarkup.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/tooltipMarkup.js
 var TOOLTIP_LINE_HEIGHT_CSS = "line-height:1";
 function getTooltipTextStyle(textStyle, renderMode) {
   var nameFontColor = textStyle.color || "#6e7079";
@@ -19687,7 +19687,7 @@ var TooltipMarkupStyleCreator = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/seriesFormatTooltip.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/seriesFormatTooltip.js
 function defaultSeriesFormatTooltip(opt) {
   var series = opt.series;
   var dataIndex = opt.dataIndex;
@@ -19777,7 +19777,7 @@ function formatTooltipArrayValue(value, series, dataIndex, tooltipDims, colorStr
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/Series.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/Series.js
 var inner2 = makeInner();
 function getSelectionKey(data, dataIndex) {
   return data.getName(dataIndex) || data.getId(dataIndex);
@@ -20142,7 +20142,7 @@ function getCurrentTask(seriesModel) {
 }
 var Series_default = SeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/view/Component.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/view/Component.js
 var ComponentView = (
   /** @class */
   function() {
@@ -20177,7 +20177,7 @@ enableClassExtend(ComponentView);
 enableClassManagement(ComponentView);
 var Component_default2 = ComponentView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createRenderPlanner.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createRenderPlanner.js
 function createRenderPlanner() {
   var inner23 = makeInner();
   return function(seriesModel) {
@@ -20191,7 +20191,7 @@ function createRenderPlanner() {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/view/Chart.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/view/Chart.js
 var inner3 = makeInner();
 var renderPlanner = createRenderPlanner();
 var ChartView = (
@@ -20318,7 +20318,7 @@ var progressMethodMap = {
 };
 var Chart_default = ChartView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/throttle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/throttle.js
 var ORIGIN_METHOD = "\0__throttleOriginMethod";
 var RATE = "\0__throttleRate";
 var THROTTLE_TYPE = "\0__throttleType";
@@ -20399,7 +20399,7 @@ function clear(obj, fnAttr) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/style.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/style.js
 var inner4 = makeInner();
 var defaultStyleMappers = {
   itemStyle: makeStyleMapper(ITEM_STYLE_KEY_MAP, true),
@@ -20549,7 +20549,7 @@ var dataColorPaletteTask = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/loading/default.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/loading/default.js
 var PI5 = Math.PI;
 function defaultLoading(api, opts) {
   opts = opts || {};
@@ -20651,7 +20651,7 @@ function defaultLoading(api, opts) {
   return group;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/Scheduler.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/Scheduler.js
 var Scheduler = (
   /** @class */
   function() {
@@ -21002,14 +21002,14 @@ function mockMethods(target, Clz) {
 }
 var Scheduler_default = Scheduler;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/theme/light.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/theme/light.js
 var colorAll = ["#37A2DA", "#32C5E9", "#67E0E3", "#9FE6B8", "#FFDB5C", "#ff9f7f", "#fb7293", "#E062AE", "#E690D1", "#e7bcf3", "#9d96f5", "#8378EA", "#96BFFF"];
 var light_default = {
   color: colorAll,
   colorLayer: [["#37A2DA", "#ffd85c", "#fd7b5f"], ["#37A2DA", "#67E0E3", "#FFDB5C", "#ff9f7f", "#E062AE", "#9d96f5"], ["#37A2DA", "#32C5E9", "#9FE6B8", "#FFDB5C", "#ff9f7f", "#fb7293", "#e7bcf3", "#8378EA", "#96BFFF"], colorAll]
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/theme/dark.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/theme/dark.js
 var contrastColor = "#B9B8CE";
 var backgroundColor = "#100C2A";
 var axisCommon = function() {
@@ -21190,7 +21190,7 @@ var theme = {
 theme.categoryAxis.splitLine.show = false;
 var dark_default = theme;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/ECEventProcessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/ECEventProcessor.js
 var ECEventProcessor = (
   /** @class */
   function() {
@@ -21266,7 +21266,7 @@ var ECEventProcessor = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/symbol.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/symbol.js
 var SYMBOL_PROPS_WITH_CB = ["symbol", "symbolSize", "symbolRotate", "symbolOffset"];
 var SYMBOL_PROPS = SYMBOL_PROPS_WITH_CB.concat(["symbolKeepAspect"]);
 var seriesSymbolTask = {
@@ -21344,7 +21344,7 @@ var dataSymbolTask = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/helper.js
 function getItemVisualFromData(data, dataIndex, key) {
   switch (key) {
     case "color":
@@ -21401,7 +21401,7 @@ function setItemVisualFromData(data, dataIndex, key, value) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/legacy/dataSelectAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/legacy/dataSelectAction.js
 function createLegacyDataSelectAction(seriesType2, ecRegisterAction) {
   function getSeriesIndices(ecModel, payload) {
     var seriesIndices = [];
@@ -21471,7 +21471,7 @@ function handleLegacySelectEvents(messageCenter, ecIns, api) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/event.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/event.js
 function findEventDispatcher(target, det, returnFirstMatch) {
   var found;
   while (target) {
@@ -21486,7 +21486,7 @@ function findEventDispatcher(target, det, returnFirstMatch) {
   return found;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/core/WeakMap.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/core/WeakMap.js
 var wmUniqueIndex = Math.round(Math.random() * 9);
 var supportDefineProperty = typeof Object.defineProperty === "function";
 var WeakMap = function() {
@@ -21529,7 +21529,7 @@ var WeakMap = function() {
 }();
 var WeakMap_default = WeakMap;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/symbol.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/symbol.js
 var Triangle = Path_default.extend({
   type: "triangle",
   shape: {
@@ -21782,7 +21782,7 @@ function normalizeSymbolOffset(symbolOffset, symbolSize) {
   return [parsePercent2(symbolOffset[0], symbolSize[0]) || 0, parsePercent2(retrieve2(symbolOffset[1], symbolOffset[0]), symbolSize[1]) || 0];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/canvas/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/canvas/helper.js
 function isSafeNum(num) {
   return isFinite(num);
 }
@@ -21859,7 +21859,7 @@ function getSize(root, whIdx, opts) {
   return (root[cwh] || parseInt10(stl[wh]) || parseInt10(root.style[wh])) - (parseInt10(stl[plt]) || 0) - (parseInt10(stl[prb]) || 0) | 0;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/canvas/dashStyle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/canvas/dashStyle.js
 function normalizeLineDash(lineType, lineWidth) {
   if (!lineType || lineType === "solid" || !(lineWidth > 0)) {
     return null;
@@ -21882,7 +21882,7 @@ function getLineDash(el) {
   return [lineDash, lineDashOffset];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/canvas/graphic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/canvas/graphic.js
 var pathProxyForDraw = new PathProxy_default(true);
 function styleHasStroke(style) {
   var stroke = style.stroke;
@@ -22389,7 +22389,7 @@ function brushIncremental(ctx, el, scope) {
   ctx.restore();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/decal.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/decal.js
 var decalMap = new WeakMap_default();
 var decalCache = new LRU_default(100);
 var decalKeys = ["symbol", "symbolSize", "symbolKeepAspect", "color", "backgroundColor", "dashArrayX", "dashArrayY", "maxTileWidth", "maxTileHeight"];
@@ -22672,7 +22672,7 @@ function getLineBlockLengthY(dash) {
   return blockLength;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/decal.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/decal.js
 function decalVisual(ecModel, api) {
   ecModel.eachRawSeries(function(seriesModel) {
     if (ecModel.isSeriesFiltered(seriesModel)) {
@@ -22696,11 +22696,11 @@ function decalVisual(ecModel, api) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/lifecycle.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/lifecycle.js
 var lifecycle = new Eventful_default();
 var lifecycle_default = lifecycle;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/impl.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/impl.js
 var implsStore = {};
 function registerImpl(name, impl) {
   if (true) {
@@ -22719,7 +22719,7 @@ function getImpl(name) {
   return implsStore[name];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/core/echarts.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/core/echarts.js
 var version2 = "5.5.0";
 var dependencies = {
   zrender: "5.5.0"
@@ -24530,7 +24530,7 @@ registerTheme("light", light_default);
 registerTheme("dark", dark_default);
 var dataTool = {};
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/extension.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/extension.js
 var extensions = [];
 var extensionRegisters = {
   registerPreprocessor,
@@ -24590,7 +24590,7 @@ function use(ext) {
   ext.install(extensionRegisters);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/DataDiffer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/DataDiffer.js
 function dataIndexMapValueLength(valNumOrArrLengthMoreThan2) {
   return valNumOrArrLengthMoreThan2 == null ? 0 : valNumOrArrLengthMoreThan2.length || 1;
 }
@@ -24743,7 +24743,7 @@ var DataDiffer = (
 );
 var DataDiffer_default = DataDiffer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dimensionHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dimensionHelper.js
 var DimensionUserOuput = (
   /** @class */
   function() {
@@ -24842,7 +24842,7 @@ function mayLabelDimType(dimType) {
   return !(dimType === "ordinal" || dimType === "time");
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/SeriesDimensionDefine.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/SeriesDimensionDefine.js
 var SeriesDimensionDefine = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -24857,7 +24857,7 @@ var SeriesDimensionDefine = (
 );
 var SeriesDimensionDefine_default = SeriesDimensionDefine;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/SeriesDataSchema.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/SeriesDataSchema.js
 var inner5 = makeInner();
 var dimTypeShort = {
   float: "f",
@@ -24993,7 +24993,7 @@ function shouldOmitUnusedDimensions(dimCount) {
   return dimCount > 30;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/SeriesData.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/SeriesData.js
 var isObject3 = isObject;
 var map2 = map;
 var CtorInt32Array2 = typeof Int32Array === "undefined" ? Array : Int32Array;
@@ -25652,7 +25652,7 @@ var SeriesData = (
 );
 var SeriesData_default = SeriesData;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/helper.js
 var helper_exports2 = {};
 __export(helper_exports2, {
   createDimensions: () => createDimensions,
@@ -25667,7 +25667,7 @@ __export(helper_exports2, {
   mixinAxisModelCommonMethods: () => mixinAxisModelCommonMethods
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/createDimensions.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/createDimensions.js
 function createDimensions(source, opt) {
   return prepareSeriesDataSchema(source, opt).dimensions;
 }
@@ -25872,7 +25872,7 @@ function genCoordDimName(name, map3, fromZero) {
   return name;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/model/referHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/model/referHelper.js
 var CoordSysInfo = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -25980,7 +25980,7 @@ function isCategory(axisModel) {
   return axisModel.get("type") === "category";
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dataStackHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/dataStackHelper.js
 function enableDataStack(seriesModel, dimensionsInput, opt) {
   opt = opt || {};
   var byIndex = opt.byIndex;
@@ -26082,7 +26082,7 @@ function getStackedDimension(data, targetDim) {
   return isDimensionStacked(data, targetDim) ? data.getCalculationInfo("stackResultDimension") : targetDim;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createSeriesData.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createSeriesData.js
 function getCoordSysDimDefs(seriesModel, coordSysInfo) {
   var coordSysName = seriesModel.get("coordinateSystem");
   var registeredCoordSys = CoordinateSystem_default.get(coordSysName);
@@ -26188,7 +26188,7 @@ function firstDataNotNull(arr) {
 }
 var createSeriesData_default = createSeriesData;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/scale/Scale.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/scale/Scale.js
 var Scale = (
   /** @class */
   function() {
@@ -26234,7 +26234,7 @@ var Scale = (
 enableClassManagement(Scale);
 var Scale_default = Scale;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/OrdinalMeta.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/OrdinalMeta.js
 var uidBase = 0;
 var OrdinalMeta = (
   /** @class */
@@ -26299,7 +26299,7 @@ function getName(obj) {
 }
 var OrdinalMeta_default = OrdinalMeta;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/scale/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/scale/helper.js
 function isValueNice(val) {
   var exp10 = Math.pow(10, quantityExponent(Math.abs(val)));
   var f = Math.abs(val / exp10);
@@ -26365,7 +26365,7 @@ function scale3(val, extent3) {
   return val * (extent3[1] - extent3[0]) + extent3[0];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/scale/Ordinal.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/scale/Ordinal.js
 var OrdinalScale = (
   /** @class */
   function(_super) {
@@ -26485,7 +26485,7 @@ var OrdinalScale = (
 Scale_default.registerClass(OrdinalScale);
 var Ordinal_default = OrdinalScale;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/scale/Interval.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/scale/Interval.js
 var roundNumber = round;
 var IntervalScale = (
   /** @class */
@@ -26671,7 +26671,7 @@ var IntervalScale = (
 Scale_default.registerClass(IntervalScale);
 var Interval_default = IntervalScale;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/vendor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/vendor.js
 var supportFloat32Array = typeof Float32Array !== "undefined";
 var Float32ArrayCtor = !supportFloat32Array ? Array : Float32Array;
 function createFloat32Array(arg) {
@@ -26681,7 +26681,7 @@ function createFloat32Array(arg) {
   return new Float32ArrayCtor(arg);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/layout/barGrid.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/layout/barGrid.js
 var STACK_PREFIX = "__ec_stack_";
 function getSeriesStackId(seriesModel) {
   return seriesModel.get("stack") || STACK_PREFIX + seriesModel.seriesIndex;
@@ -27062,7 +27062,7 @@ function getValueAxisStart(baseAxis, valueAxis2) {
   return valueAxis2.toGlobalCoord(valueAxis2.dataToCoord(valueAxis2.type === "log" ? 1 : 0));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/scale/Time.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/scale/Time.js
 var bisect = function(a, x, lo, hi) {
   while (lo < hi) {
     var mid = lo + hi >>> 1;
@@ -27432,7 +27432,7 @@ function getIntervalTicks(bottomUnitName, approxInterval, isUTC, extent3) {
 Scale_default.registerClass(TimeScale);
 var Time_default = TimeScale;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/scale/Log.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/scale/Log.js
 var scaleProto = Scale_default.prototype;
 var intervalScaleProto = Interval_default.prototype;
 var roundingErrorFix = round;
@@ -27546,7 +27546,7 @@ function fixRoundingError(val, originalVal) {
 Scale_default.registerClass(LogScale);
 var Log_default = LogScale;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/scaleRawExtentInfo.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/scaleRawExtentInfo.js
 var ScaleRawExtentInfo = (
   /** @class */
   function() {
@@ -27680,7 +27680,7 @@ function parseAxisModelMinMax(scale4, minMax) {
   return minMax == null ? null : eqNaN(minMax) ? NaN : scale4.parse(minMax);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisHelper.js
 function getScaleExtent(scale4, model) {
   var scaleType = scale4.type;
   var rawExtentResult = ensureScaleRawExtentInfo(scale4, model, scale4.getExtent()).calculate();
@@ -27891,7 +27891,7 @@ function unionAxisExtentFromData(dataExtent, data, axisDim) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisModelCommonMixin.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisModelCommonMixin.js
 var AxisModelCommonMixin = (
   /** @class */
   function() {
@@ -27908,7 +27908,7 @@ var AxisModelCommonMixin = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/helper.js
 function createList(seriesModel) {
   return createSeriesData_default(null, seriesModel);
 }
@@ -27935,7 +27935,7 @@ function createTextStyle2(textStyleModel, opts) {
   return createTextStyle(textStyleModel, null, null, opts.state !== "normal");
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/contain/polygon.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/contain/polygon.js
 var EPSILON5 = 1e-8;
 function isAroundEqual2(a, b) {
   return Math.abs(a - b) < EPSILON5;
@@ -27958,7 +27958,7 @@ function contain3(points4, x, y) {
   return w !== 0;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/Region.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/Region.js
 var TMP_TRANSFORM = [];
 function transformPoints(points4, transform2) {
   for (var p = 0; p < points4.length; p++) {
@@ -28183,7 +28183,7 @@ var GeoSVGRegion = (
   }(Region)
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/parseGeoJson.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/parseGeoJson.js
 function decode(json) {
   if (!json.UTF8Encoding) {
     return json;
@@ -28274,7 +28274,7 @@ function parseGeoJSON(geoJson, nameProperty) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/number.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/number.js
 var number_exports2 = {};
 __export(number_exports2, {
   MAX_SAFE_INTEGER: () => MAX_SAFE_INTEGER,
@@ -28297,14 +28297,14 @@ __export(number_exports2, {
   round: () => round
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/time.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/time.js
 var time_exports = {};
 __export(time_exports, {
   format: () => format,
   parse: () => parseDate
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/graphic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/graphic.js
 var graphic_exports2 = {};
 __export(graphic_exports2, {
   Arc: () => Arc_default,
@@ -28341,7 +28341,7 @@ __export(graphic_exports2, {
   updateProps: () => updateProps
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/format.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/format.js
 var format_exports2 = {};
 __export(format_exports2, {
   addCommas: () => addCommas,
@@ -28356,7 +28356,7 @@ __export(format_exports2, {
   truncateText: () => truncateText
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api/util.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api/util.js
 var util_exports2 = {};
 __export(util_exports2, {
   bind: () => bind,
@@ -28377,7 +28377,7 @@ __export(util_exports2, {
   reduce: () => reduce
 });
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisTickLabelBuilder.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisTickLabelBuilder.js
 var inner6 = makeInner();
 function createAxisLabels(axis) {
   return axis.type === "category" ? makeCategoryLabels(axis) : makeRealNumberLabels(axis);
@@ -28594,7 +28594,7 @@ function makeLabelsByCustomizedCategoryInterval(axis, categoryInterval, onlyTick
   return result;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/Axis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/Axis.js
 var NORMALIZED_EXTENT = [0, 1];
 var Axis = (
   /** @class */
@@ -28765,7 +28765,7 @@ function fixOnBandTicksCoords(axis, ticksCoords, alignWithLabel, clamp2) {
 }
 var Axis_default = Axis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/api.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/api.js
 function extendComponentModel(proto2) {
   var Model2 = Component_default.extend(proto2);
   Component_default.registerClass(Model2);
@@ -28787,7 +28787,7 @@ function extendChartView(proto2) {
   return View2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/label/labelGuideHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/label/labelGuideHelper.js
 var PI27 = Math.PI * 2;
 var CMD4 = PathProxy_default.CMD;
 var DEFAULT_SEARCH_SPACE = ["top", "right", "bottom", "left"];
@@ -29215,7 +29215,7 @@ function getLabelLineStatesModels(itemModel, labelLineName) {
   return statesModels;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/label/labelLayoutHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/label/labelLayoutHelper.js
 function prepareLayoutList(input) {
   var list = [];
   for (var i = 0; i < input.length; i++) {
@@ -29435,7 +29435,7 @@ function hideOverlap(labelList) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/label/LabelManager.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/label/LabelManager.js
 function cloneArr(points4) {
   if (points4) {
     var newPoints = [];
@@ -29790,7 +29790,7 @@ var LabelManager = (
 );
 var LabelManager_default = LabelManager;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/label/installLabelLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/label/installLabelLayout.js
 var getLabelManager = makeInner();
 function installLabelLayout(registers) {
   registers.registerUpdateLifecycle("series:beforeupdate", function(ecModel, api, params) {
@@ -29811,10 +29811,10 @@ function installLabelLayout(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/export/core.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/export/core.js
 use(installLabelLayout);
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/SVGPathRebuilder.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/SVGPathRebuilder.js
 var mathSin5 = Math.sin;
 var mathCos5 = Math.cos;
 var PI6 = Math.PI;
@@ -29914,7 +29914,7 @@ var SVGPathRebuilder = function() {
 }();
 var SVGPathRebuilder_default = SVGPathRebuilder;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/mapStyleToAttrs.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/mapStyleToAttrs.js
 var NONE = "none";
 var mathRound2 = Math.round;
 function pathHasFill(style) {
@@ -29985,7 +29985,7 @@ function mapStyleToAttrs(updateAttr2, style, el, forceUpdate) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/core.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/core.js
 var SVGNS = "http://www.w3.org/2000/svg";
 var XLINKNS = "http://www.w3.org/1999/xlink";
 var XMLNS = "http://www.w3.org/2000/xmlns/";
@@ -30089,13 +30089,13 @@ function createSVGVNode(width, height, children, useViewBox) {
   }, children);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/cssClassId.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/cssClassId.js
 var cssClassIdx = 0;
 function getClassId() {
   return cssClassIdx++;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/cssAnimation.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/cssAnimation.js
 var EASING_MAP = {
   cubicIn: "0.32,0,0.67,0",
   cubicOut: "0.33,1,0.68,1",
@@ -30360,7 +30360,7 @@ function createCSSAnimation(el, attrs, scope, onlyShape) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/cssEmphasis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/cssEmphasis.js
 function createCSSEmphasis(el, attrs, scope) {
   if (!el.ignore) {
     if (el.isSilent()) {
@@ -30411,7 +30411,7 @@ function setClassAttribute(style, attrs, scope, withHover) {
   attrs["class"] = attrs["class"] ? attrs["class"] + " " + className : className;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/graphic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/graphic.js
 var round5 = Math.round;
 function isImageLike2(val) {
   return val && isString(val.src);
@@ -30846,7 +30846,7 @@ function setClipPath(clipPath, attrs, scope) {
   attrs["clip-path"] = getIdURL(clipPathId);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/domapi.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/domapi.js
 function createTextNode(text) {
   return document.createTextNode(text);
 }
@@ -30869,7 +30869,7 @@ function setTextContent(node, text) {
   node.textContent = text;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/patch.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/patch.js
 var colonChar = 58;
 var xChar = 120;
 var emptyNode = createVNode("", "");
@@ -31095,7 +31095,7 @@ function patch(oldVnode, vnode) {
   return vnode;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/svg/Painter.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/svg/Painter.js
 var svgId = 0;
 var SVGPainter = function() {
   function SVGPainter2(root, storage2, opts) {
@@ -31337,12 +31337,12 @@ function createBackgroundVNode(width, height, backgroundColor2, scope) {
 }
 var Painter_default = SVGPainter;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/renderer/installSVGRenderer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/renderer/installSVGRenderer.js
 function install(registers) {
   registers.registerPainter("svg", Painter_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/canvas/Layer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/canvas/Layer.js
 function createDom(id, painter, dpr2) {
   var newDom = platformApi.createCanvas();
   var width = painter.getWidth();
@@ -31620,7 +31620,7 @@ var Layer = function(_super) {
 }(Eventful_default);
 var Layer_default = Layer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/canvas/Painter.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/canvas/Painter.js
 var HOVER_LAYER_ZLEVEL = 1e5;
 var CANVAS_ZLEVEL = 314159;
 var EL_AFTER_INCREMENTAL_INC = 0.01;
@@ -32228,12 +32228,12 @@ var CanvasPainter = function() {
 }();
 var Painter_default2 = CanvasPainter;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/renderer/installCanvasRenderer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/renderer/installCanvasRenderer.js
 function install2(registers) {
   registers.registerPainter("canvas", Painter_default2);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/LineSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/LineSeries.js
 var LineSeriesModel = (
   /** @class */
   function(_super) {
@@ -32341,7 +32341,7 @@ var LineSeriesModel = (
 );
 var LineSeries_default = LineSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/labelHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/labelHelper.js
 function getDefaultLabel(data, dataIndex) {
   var labelDims = data.mapDimensionsAll("defaultedLabel");
   var len2 = labelDims.length;
@@ -32371,7 +32371,7 @@ function getDefaultInterpolatedLabel(data, interpolatedValue) {
   return vals.join(" ");
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/Symbol.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/Symbol.js
 var Symbol2 = (
   /** @class */
   function(_super) {
@@ -32609,7 +32609,7 @@ function driftSymbol(dx, dy) {
 }
 var Symbol_default = Symbol2;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/SymbolDraw.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/SymbolDraw.js
 function symbolNeedsDraw(data, point, idx, opt) {
   return point && !isNaN(point[0]) && !isNaN(point[1]) && !(opt.isIgnore && opt.isIgnore(idx)) && !(opt.clipShape && !opt.clipShape.contain(point[0], point[1])) && data.getItemVisual(idx, "symbol") !== "none";
 }
@@ -32764,7 +32764,7 @@ var SymbolDraw = (
 );
 var SymbolDraw_default = SymbolDraw;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/helper.js
 function prepareDataCoordInfo(coordSys, data, valueOrigin) {
   var baseAxis = coordSys.getBaseAxis();
   var valueAxis2 = coordSys.getOtherAxis(baseAxis);
@@ -32840,7 +32840,7 @@ function getStackedOnPoint(dataCoordInfo, coordSys, data, idx) {
   return coordSys.dataToPoint(stackedData);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/lineAnimationDiff.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/lineAnimationDiff.js
 function diffData(oldData, newData) {
   var diffResult = [];
   newData.diff(oldData).add(function(idx) {
@@ -32949,7 +32949,7 @@ function lineAnimationDiff(oldData, newData, oldStackedOnPoints, newStackedOnPoi
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/poly.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/poly.js
 var mathMin6 = Math.min;
 var mathMax6 = Math.max;
 function isPointNull(x, y) {
@@ -33246,7 +33246,7 @@ var ECPolygon = (
   }(Path_default)
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createClipPathFromCoordSys.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createClipPathFromCoordSys.js
 function createGridClipPath(cartesian, hasAnimation, seriesModel, done, during) {
   var rect = cartesian.getArea();
   var x = rect.x;
@@ -33342,12 +33342,12 @@ function createClipPath(coordSys, hasAnimation, seriesModel, done, during) {
   return null;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/CoordinateSystem.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/CoordinateSystem.js
 function isCoordinateSystemType(coordSys, type) {
   return coordSys.type === type;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/LineView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/LineView.js
 function isPointsSame(points1, points22) {
   if (points1.length !== points22.length) {
     return;
@@ -34303,7 +34303,7 @@ var LineView = (
 );
 var LineView_default = LineView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/layout/points.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/layout/points.js
 function pointsLayout(seriesType2, forceStoreInTypedArray) {
   return {
     seriesType: seriesType2,
@@ -34360,7 +34360,7 @@ function pointsLayout(seriesType2, forceStoreInTypedArray) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/processor/dataSample.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/processor/dataSample.js
 var samplers = {
   average: function(frame) {
     var sum2 = 0;
@@ -34452,7 +34452,7 @@ function dataSample(seriesType2) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/line/install.js
 function install3(registers) {
   registers.registerChartView(LineView_default);
   registers.registerSeriesModel(LineSeries_default);
@@ -34471,7 +34471,7 @@ function install3(registers) {
   registers.registerProcessor(registers.PRIORITY.PROCESSOR.STATISTIC, dataSample("line"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/BaseBarSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/BaseBarSeries.js
 var BaseBarSeriesModel = (
   /** @class */
   function(_super) {
@@ -34571,7 +34571,7 @@ var BaseBarSeriesModel = (
 Series_default.registerClass(BaseBarSeriesModel);
 var BaseBarSeries_default = BaseBarSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/BarSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/BarSeries.js
 var BarSeriesModel = (
   /** @class */
   function(_super) {
@@ -34633,7 +34633,7 @@ var BarSeriesModel = (
 );
 var BarSeries_default = BarSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/shape/sausage.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/shape/sausage.js
 var SausageShape = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -34697,7 +34697,7 @@ var SausagePath = (
 );
 var sausage_default = SausagePath;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/label/sectorLabel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/label/sectorLabel.js
 function createSectorCalculateTextPosition(positionMapping, opts) {
   opts = opts || {};
   var isRoundCap = opts.isRoundCap;
@@ -34845,7 +34845,7 @@ function adjustAngleDistanceY(angle, distance2, isEnd) {
   return distance2 * Math.cos(angle) * (isEnd ? 1 : -1);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/sectorHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/sectorHelper.js
 function getSectorCornerRadius(model, shape, zeroIfNull) {
   var cornerRadius = model.get("borderRadius");
   if (cornerRadius == null) {
@@ -34864,7 +34864,7 @@ function getSectorCornerRadius(model, shape, zeroIfNull) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/BarView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/BarView.js
 var mathMax7 = Math.max;
 var mathMin7 = Math.min;
 function getClipArea(coord, data) {
@@ -35639,7 +35639,7 @@ function createBackgroundEl(coord, isHorizontalOrRadial, layout5) {
 }
 var BarView_default = BarView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/install.js
 function install4(registers) {
   registers.registerChartView(BarView_default);
   registers.registerSeriesModel(BarSeries_default);
@@ -35663,7 +35663,7 @@ function install4(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/pieLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/pieLayout.js
 var PI29 = Math.PI * 2;
 var RADIAN = Math.PI / 180;
 function getViewRect(seriesModel, api) {
@@ -35835,7 +35835,7 @@ function pieLayout(seriesType2, ecModel, api) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/processor/dataFilter.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/processor/dataFilter.js
 function dataFilter(seriesType2) {
   return {
     seriesType: seriesType2,
@@ -35860,7 +35860,7 @@ function dataFilter(seriesType2) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/labelLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/labelLayout.js
 var RADIAN2 = Math.PI / 180;
 function adjustSingleSide(list, cx, cy, r, dir3, viewWidth, viewHeight, viewLeft, viewTop, farthestX) {
   if (list.length < 2) {
@@ -36244,7 +36244,7 @@ function pieLabelLayout(seriesModel) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/PieView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/PieView.js
 var PiePiece = (
   /** @class */
   function(_super) {
@@ -36459,7 +36459,7 @@ var PieView = (
 );
 var PieView_default = PieView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createSeriesDataSimply.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createSeriesDataSimply.js
 function createSeriesDataSimply(seriesModel, opt, nameList) {
   opt = isArray(opt) && {
     coordDimensions: opt
@@ -36473,7 +36473,7 @@ function createSeriesDataSimply(seriesModel, opt, nameList) {
   return list;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/LegendVisualProvider.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/LegendVisualProvider.js
 var LegendVisualProvider = (
   /** @class */
   function() {
@@ -36502,7 +36502,7 @@ var LegendVisualProvider = (
 );
 var LegendVisualProvider_default = LegendVisualProvider;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/PieSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/PieSeries.js
 var innerData = makeInner();
 var PieSeriesModel = (
   /** @class */
@@ -36653,7 +36653,7 @@ var PieSeriesModel = (
 );
 var PieSeries_default = PieSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/processor/negativeDataFilter.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/processor/negativeDataFilter.js
 function negativeDataFilter(seriesType2) {
   return {
     seriesType: seriesType2,
@@ -36671,7 +36671,7 @@ function negativeDataFilter(seriesType2) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/pie/install.js
 function install5(registers) {
   registers.registerChartView(PieView_default);
   registers.registerSeriesModel(PieSeries_default);
@@ -36681,7 +36681,7 @@ function install5(registers) {
   registers.registerProcessor(negativeDataFilter("pie"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/scatter/ScatterSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/scatter/ScatterSeries.js
 var ScatterSeriesModel = (
   /** @class */
   function(_super) {
@@ -36755,7 +36755,7 @@ var ScatterSeriesModel = (
 );
 var ScatterSeries_default = ScatterSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LargeSymbolDraw.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LargeSymbolDraw.js
 var BOOST_SIZE_THRESHOLD = 4;
 var LargeSymbolPathShape = (
   /** @class */
@@ -37003,7 +37003,7 @@ var LargeSymbolDraw = (
 );
 var LargeSymbolDraw_default = LargeSymbolDraw;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/scatter/ScatterView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/scatter/ScatterView.js
 var ScatterView = (
   /** @class */
   function(_super) {
@@ -37091,7 +37091,7 @@ var ScatterView = (
 );
 var ScatterView_default = ScatterView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/GridModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/GridModel.js
 var GridModel = (
   /** @class */
   function(_super) {
@@ -37123,7 +37123,7 @@ var GridModel = (
 );
 var GridModel_default = GridModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/AxisModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/AxisModel.js
 var CartesianAxisModel = (
   /** @class */
   function(_super) {
@@ -37140,7 +37140,7 @@ var CartesianAxisModel = (
 );
 mixin(CartesianAxisModel, AxisModelCommonMixin);
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisDefault.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisDefault.js
 var defaultOption = {
   show: true,
   // zlevel: 0,
@@ -37300,7 +37300,7 @@ var axisDefault_default = {
   log: logAxis
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisCommonTypes.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisCommonTypes.js
 var AXIS_TYPES = {
   value: 1,
   category: 1,
@@ -37308,7 +37308,7 @@ var AXIS_TYPES = {
   log: 1
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisModelCreator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisModelCreator.js
 function axisModelCreator(registers, axisName, BaseAxisModelClass, extraDefaultOption) {
   each(AXIS_TYPES, function(v, axisType) {
     var defaultOption3 = merge(merge({}, axisDefault_default[axisType], true), extraDefaultOption, true);
@@ -37363,7 +37363,7 @@ function getAxisType(option) {
   return option.type || (option.data ? "category" : "value");
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Cartesian.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Cartesian.js
 var Cartesian = (
   /** @class */
   function() {
@@ -37397,7 +37397,7 @@ var Cartesian = (
 );
 var Cartesian_default = Cartesian;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Cartesian2D.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Cartesian2D.js
 var cartesian2DDimensions = ["x", "y"];
 function canCalculateAffineTransform(scale4) {
   return scale4.type === "interval" || scale4.type === "time";
@@ -37507,7 +37507,7 @@ var Cartesian2D = (
 );
 var Cartesian2D_default = Cartesian2D;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Axis2D.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Axis2D.js
 var Axis2D = (
   /** @class */
   function(_super) {
@@ -37545,7 +37545,7 @@ var Axis2D = (
 );
 var Axis2D_default = Axis2D;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/cartesianAxisHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/cartesianAxisHelper.js
 function layout2(gridModel, axisModel, opt) {
   opt = opt || {};
   var grid = gridModel.coordinateSystem;
@@ -37612,7 +37612,7 @@ function findAxisModels(seriesModel) {
   return axisModelMap;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisAlignTicks.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/axisAlignTicks.js
 var mathLog2 = Math.log;
 function alignScaleTicks(scale4, axisModel, alignToScale) {
   var intervalScaleProto2 = Interval_default.prototype;
@@ -37692,7 +37692,7 @@ function alignScaleTicks(scale4, axisModel, alignToScale) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Grid.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/Grid.js
 var Grid = (
   /** @class */
   function() {
@@ -38068,7 +38068,7 @@ function updateAxisTransform(axis, coordBase) {
 }
 var Grid_default = Grid;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/AxisBuilder.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/AxisBuilder.js
 var PI7 = Math.PI;
 var AxisBuilder = (
   /** @class */
@@ -38549,7 +38549,7 @@ function buildAxisLabel(group, transformGroup, axisModel, opt) {
 }
 var AxisBuilder_default = AxisBuilder;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/modelHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/modelHelper.js
 function collect(ecModel, api) {
   var result = {
     /**
@@ -38748,7 +38748,7 @@ function makeKey(model) {
   return model.type + "||" + model.id;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/AxisView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/AxisView.js
 var axisPointerClazz = {};
 var AxisView = (
   /** @class */
@@ -38806,7 +38806,7 @@ var AxisView = (
 );
 var AxisView_default = AxisView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/axisSplitHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/axisSplitHelper.js
 var inner7 = makeInner();
 function rectCoordAxisBuildSplitArea(axisView, axisGroup, axisModel, gridModel) {
   var axis = axisModel.axis;
@@ -38883,7 +38883,7 @@ function rectCoordAxisHandleRemove(axisView) {
   inner7(axisView).splitAreaColors = null;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/CartesianAxisView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/CartesianAxisView.js
 var axisBuilderAttrs = ["axisLine", "axisTickLabel", "axisName"];
 var selfBuilderAttrs = ["splitArea", "splitLine", "minorSplitLine"];
 var CartesianAxisView = (
@@ -39064,7 +39064,7 @@ var CartesianYAxisView = (
   }(CartesianAxisView)
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/grid/installSimple.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/grid/installSimple.js
 var GridView = (
   /** @class */
   function(_super) {
@@ -39111,7 +39111,7 @@ function install6(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/scatter/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/scatter/install.js
 function install7(registers) {
   use(install6);
   registers.registerSeriesModel(ScatterSeries_default);
@@ -39119,7 +39119,7 @@ function install7(registers) {
   registers.registerLayout(pointsLayout("scatter"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/radarLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/radarLayout.js
 function radarLayout(ecModel) {
   ecModel.eachSeriesByType("radar", function(seriesModel) {
     var data = seriesModel.getData();
@@ -39152,7 +39152,7 @@ function getValueMissingPoint(coordSys) {
   return [coordSys.cx, coordSys.cy];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/backwardCompat.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/backwardCompat.js
 function radarBackwardCompat(option) {
   var polarOptArr = option.polar;
   if (polarOptArr) {
@@ -39183,7 +39183,7 @@ function radarBackwardCompat(option) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/RadarView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/RadarView.js
 var RadarView = (
   /** @class */
   function(_super) {
@@ -39358,7 +39358,7 @@ var RadarView = (
 );
 var RadarView_default = RadarView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/RadarSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/RadarSeries.js
 var RadarSeriesModel = (
   /** @class */
   function(_super) {
@@ -39444,7 +39444,7 @@ var RadarSeriesModel = (
 );
 var RadarSeries_default = RadarSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/radar/RadarModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/radar/RadarModel.js
 var valueAxisDefault = axisDefault_default.value;
 function defaultsShow(opt, show) {
   return defaults({
@@ -39554,7 +39554,7 @@ var RadarModel = (
 );
 var RadarModel_default = RadarModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/radar/RadarView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/radar/RadarView.js
 var axisBuilderAttrs2 = ["axisLine", "axisTickLabel", "axisName"];
 var RadarView2 = (
   /** @class */
@@ -39710,7 +39710,7 @@ var RadarView2 = (
 );
 var RadarView_default2 = RadarView2;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/radar/IndicatorAxis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/radar/IndicatorAxis.js
 var IndicatorAxis = (
   /** @class */
   function(_super) {
@@ -39727,7 +39727,7 @@ var IndicatorAxis = (
 );
 var IndicatorAxis_default = IndicatorAxis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/radar/Radar.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/radar/Radar.js
 var Radar = (
   /** @class */
   function() {
@@ -39860,7 +39860,7 @@ var Radar = (
 );
 var Radar_default = Radar;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/radar/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/radar/install.js
 function install8(registers) {
   registers.registerCoordinateSystem("radar", Radar_default);
   registers.registerComponentModel(RadarModel_default);
@@ -39877,7 +39877,7 @@ function install8(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/radar/install.js
 function install9(registers) {
   use(install8);
   registers.registerChartView(RadarView_default);
@@ -39887,7 +39887,7 @@ function install9(registers) {
   registers.registerPreprocessor(radarBackwardCompat);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/interactionMutex.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/interactionMutex.js
 var ATTR = "\0_ec_interaction_mutex";
 function take(zr, resourceKey, userKey) {
   var store = getStore(zr);
@@ -39912,7 +39912,7 @@ registerAction({
   update: "update"
 }, noop);
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/RoamController.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/RoamController.js
 var RoamController = (
   /** @class */
   function(_super) {
@@ -40077,7 +40077,7 @@ function isAvailableBehavior(behaviorToCheck, e2, settings) {
 }
 var RoamController_default = RoamController;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/roamHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/roamHelper.js
 function updateViewOnPan(controllerHost, dx, dy) {
   var target = controllerHost.target;
   target.x += dx;
@@ -40103,7 +40103,7 @@ function updateViewOnZoom(controllerHost, zoomDelta, zoomX, zoomY) {
   target.dirty();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/cursorHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/cursorHelper.js
 var IRRELEVANT_EXCLUDES = {
   "axisPointer": 1,
   "tooltip": 1,
@@ -40115,7 +40115,7 @@ function onIrrelevantElement(e2, api, targetCoordSysModel) {
   return model && model !== targetCoordSysModel && !IRRELEVANT_EXCLUDES.hasOwnProperty(model.mainType) && coordSys && coordSys.model !== targetCoordSysModel;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/parseXML.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/parseXML.js
 function parseXML(svg) {
   if (isString(svg)) {
     var parser = new DOMParser();
@@ -40131,7 +40131,7 @@ function parseXML(svg) {
   return svgNode;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/parseSVG.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/parseSVG.js
 var nodeParsers;
 var INHERITABLE_STYLE_ATTRIBUTES_MAP = {
   "fill": "fill",
@@ -40748,7 +40748,7 @@ function parseSVG(xml, opt) {
   return parser.parse(xml, opt);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/GeoSVGResource.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/GeoSVGResource.js
 var REGION_AVAILABLE_SVG_TAG_MAP = createHashMap([
   "rect",
   "circle",
@@ -40913,7 +40913,7 @@ function createRegions(named) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/fix/nanhai.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/fix/nanhai.js
 var geoCoord = [126, 25];
 var nanhaiName = "南海诸岛";
 var points2 = [[[0, 3.5], [7, 11.2], [15, 11.9], [30, 7], [42, 0.7], [52, 0.7], [56, 7.7], [59, 0.7], [64, 0.7], [64, 0], [5, 0], [0, 3.5]], [[13, 16.1], [19, 14.7], [16, 21.7], [11, 23.1], [13, 16.1]], [[12, 32.2], [14, 38.5], [15, 38.5], [13, 32.2], [12, 32.2]], [[16, 47.6], [12, 53.2], [13, 53.2], [18, 47.6], [16, 47.6]], [[6, 64.4], [8, 70], [9, 70], [8, 64.4], [6, 64.4]], [[23, 82.6], [29, 79.8], [30, 79.8], [25, 82.6], [23, 82.6]], [[37, 70.7], [43, 62.3], [44, 62.3], [39, 70.7], [37, 70.7]], [[48, 51.1], [51, 45.5], [53, 45.5], [50, 51.1], [48, 51.1]], [[51, 35], [51, 28.7], [53, 28.7], [53, 35], [51, 35]], [[52, 22.4], [55, 17.5], [56, 17.5], [53, 22.4], [52, 22.4]], [[58, 12.6], [62, 7], [63, 7], [60, 12.6], [58, 12.6]], [[0, 3.5], [0, 93.1], [64, 93.1], [64, 0], [63, 0], [63, 92.4], [1, 92.4], [1, 3.5], [0, 3.5]]];
@@ -40943,7 +40943,7 @@ function fixNanhai(mapType, regions) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/fix/textCoord.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/fix/textCoord.js
 var coordsOffsetMap = {
   "南海诸岛": [32, 80],
   // 全国
@@ -40965,7 +40965,7 @@ function fixTextCoords(mapType, region) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/fix/diaoyuIsland.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/fix/diaoyuIsland.js
 var points3 = [[[123.45165252685547, 25.73527164402261], [123.49731445312499, 25.73527164402261], [123.49731445312499, 25.750734064600884], [123.45165252685547, 25.750734064600884], [123.45165252685547, 25.73527164402261]]];
 function fixDiaoyuIsland(mapType, region) {
   if (mapType === "china" && region.name === "台湾") {
@@ -40976,7 +40976,7 @@ function fixDiaoyuIsland(mapType, region) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/GeoJSONResource.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/GeoJSONResource.js
 var DEFAULT_NAME_PROPERTY = "name";
 var GeoJSONResource = (
   /** @class */
@@ -41061,7 +41061,7 @@ function parseInput(source) {
   return !isString(source) ? source : typeof JSON !== "undefined" && JSON.parse ? JSON.parse(source) : new Function("return (" + source + ");")();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/geoSourceManager.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/geoSourceManager.js
 var storage = createHashMap();
 var geoSourceManager_default = {
   /**
@@ -41132,7 +41132,7 @@ var geoSourceManager_default = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/MapDraw.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/MapDraw.js
 var OPTION_STYLE_ENABLED_TAGS = ["rect", "circle", "line", "ellipse", "polygon", "polyline", "path"];
 var OPTION_STYLE_ENABLED_TAG_MAP = createHashMap(OPTION_STYLE_ENABLED_TAGS);
 var STATE_TRIGGER_TAG_MAP = createHashMap(OPTION_STYLE_ENABLED_TAGS.concat(["g"]));
@@ -41628,7 +41628,7 @@ function projectPolys(rings, createStream, isLine) {
 }
 var MapDraw_default = MapDraw;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/MapView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/MapView.js
 var MapView = (
   /** @class */
   function(_super) {
@@ -41741,7 +41741,7 @@ var MapView = (
 );
 var MapView_default = MapView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/MapSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/MapSeries.js
 var MapSeries = (
   /** @class */
   function(_super) {
@@ -41916,7 +41916,7 @@ var MapSeries = (
 );
 var MapSeries_default = MapSeries;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/mapDataStatistic.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/mapDataStatistic.js
 function dataStatistics(datas, statisticType) {
   var dataNameMap = {};
   each(datas, function(data) {
@@ -41975,7 +41975,7 @@ function mapDataStatistic(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/mapSymbolLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/mapSymbolLayout.js
 function mapSymbolLayout(ecModel) {
   var processedMapType = {};
   ecModel.eachSeriesByType("map", function(mapSeries) {
@@ -42015,7 +42015,7 @@ function mapSymbolLayout(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/View.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/View.js
 var v2ApplyTransform = applyTransform;
 var View = (
   /** @class */
@@ -42173,7 +42173,7 @@ function getCoordSys(finder) {
 }
 var View_default = View;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/Geo.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/Geo.js
 var GEO_DEFAULT_PARAMS = {
   "geoJSON": {
     aspectScale: 0.75,
@@ -42314,7 +42314,7 @@ function getCoordSys2(finder) {
 }
 var Geo_default = Geo;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/geoCreator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/geoCreator.js
 function resizeGeo(geoModel, api) {
   var boundingCoords = geoModel.get("boundingCoords");
   if (boundingCoords != null) {
@@ -42483,7 +42483,7 @@ var GeoCreator = (
 var geoCreator = new GeoCreator();
 var geoCreator_default = geoCreator;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/GeoModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/GeoModel.js
 var GeoModel = (
   /** @class */
   function(_super) {
@@ -42638,7 +42638,7 @@ var GeoModel = (
 );
 var GeoModel_default = GeoModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/action/roamHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/action/roamHelper.js
 function getCenterCoord(view, point) {
   return view.pointToProjected ? view.pointToProjected(point) : view.pointToData(point);
 }
@@ -42674,7 +42674,7 @@ function updateCenterAndZoom(view, payload, zoomLimit, api) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/geo/GeoView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/geo/GeoView.js
 var GeoView = (
   /** @class */
   function(_super) {
@@ -42740,7 +42740,7 @@ var GeoView = (
 );
 var GeoView_default = GeoView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/geo/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/geo/install.js
 function registerMap2(mapName, geoJson, specialAreas) {
   geoSourceManager_default.registerMap(mapName, geoJson, specialAreas);
 }
@@ -42822,7 +42822,7 @@ function install10(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/map/install.js
 function install11(registers) {
   use(install10);
   registers.registerChartView(MapView_default);
@@ -42832,7 +42832,7 @@ function install11(registers) {
   createLegacyDataSelectAction("map", registers.registerAction);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/layoutHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/layoutHelper.js
 function init3(inRoot) {
   var root = inRoot;
   root.hierNode = {
@@ -42983,7 +42983,7 @@ function defaultSeparation(node1, node2) {
   return node1.parentNode === node2.parentNode ? 1 : 2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/TreeView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/TreeView.js
 var TreeEdgeShape = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -43528,7 +43528,7 @@ function getEdgeShape(layoutOpt, orient, curvature, sourceLayout, targetLayout) 
 }
 var TreeView_default = TreeView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/linkSeriesData.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/helper/linkSeriesData.js
 var inner8 = makeInner();
 function linkSeriesData(opt) {
   var mainData = opt.mainData;
@@ -43611,7 +43611,7 @@ function linkSingle(data, dataType, mainData, opt) {
 }
 var linkSeriesData_default = linkSeriesData;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/Tree.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/Tree.js
 var TreeNode = (
   /** @class */
   function() {
@@ -43850,7 +43850,7 @@ function addChild(child, node) {
 }
 var Tree_default = Tree;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/treeHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/treeHelper.js
 function retrieveTargetInfo(payload, validPayloadTypes, seriesModel) {
   if (payload && indexOf(validPayloadTypes, payload.type) >= 0) {
     var root = seriesModel.getData().tree.root;
@@ -43898,7 +43898,7 @@ function wrapTreePathInfo(node, seriesModel) {
   return treePathInfo;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/TreeSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/TreeSeries.js
 var TreeSeriesModel = (
   /** @class */
   function(_super) {
@@ -44028,7 +44028,7 @@ var TreeSeriesModel = (
 );
 var TreeSeries_default = TreeSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/traversalHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/traversalHelper.js
 function eachAfter(root, callback, separation2) {
   var nodes = [root];
   var next = [];
@@ -44064,7 +44064,7 @@ function eachBefore(root, callback) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/treeLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/treeLayout.js
 function treeLayout(ecModel, api) {
   ecModel.eachSeriesByType("tree", function(seriesModel) {
     commonLayout(seriesModel, api);
@@ -44159,7 +44159,7 @@ function commonLayout(seriesModel, api) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/treeVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/treeVisual.js
 function treeVisual(ecModel) {
   ecModel.eachSeriesByType("tree", function(seriesModel) {
     var data = seriesModel.getData();
@@ -44173,7 +44173,7 @@ function treeVisual(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/treeAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/treeAction.js
 function installTreeAction(registers) {
   registers.registerAction({
     type: "treeExpandAndCollapse",
@@ -44213,7 +44213,7 @@ function installTreeAction(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/tree/install.js
 function install12(registers) {
   registers.registerChartView(TreeView_default);
   registers.registerSeriesModel(TreeSeries_default);
@@ -44222,7 +44222,7 @@ function install12(registers) {
   installTreeAction(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/treemapAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/treemapAction.js
 var actionTypes = ["treemapZoomToNode", "treemapRender", "treemapMove"];
 function installTreemapAction(registers) {
   for (var i = 0; i < actionTypes.length; i++) {
@@ -44254,7 +44254,7 @@ function installTreemapAction(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/enableAriaDecalForTree.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/enableAriaDecalForTree.js
 function enableAriaDecalForTree(seriesModel) {
   var data = seriesModel.getData();
   var tree = data.tree;
@@ -44269,7 +44269,7 @@ function enableAriaDecalForTree(seriesModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/TreemapSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/TreemapSeries.js
 var TreemapSeriesModel = (
   /** @class */
   function(_super) {
@@ -44521,7 +44521,7 @@ function setDefault(levels, ecModel) {
 }
 var TreemapSeries_default = TreemapSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/Breadcrumb.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/Breadcrumb.js
 var TEXT_PADDING = 8;
 var ITEM_GAP = 8;
 var ARRAY_LENGTH = 5;
@@ -44652,7 +44652,7 @@ function packEventData(el, seriesModel, itemNode) {
 }
 var Breadcrumb_default = Breadcrumb;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/animation.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/animation.js
 var AnimationWrap = (
   /** @class */
   function() {
@@ -44709,7 +44709,7 @@ function createWrap() {
   return new AnimationWrap();
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/TreemapView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/TreemapView.js
 var Group2 = Group_default;
 var Rect2 = Rect_default;
 var DRAG_THRESHOLD = 3;
@@ -45390,7 +45390,7 @@ function calculateZ2(depth, z2InLevel) {
 }
 var TreemapView_default = TreemapView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/VisualMapping.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/VisualMapping.js
 var each4 = each;
 var isObject4 = isObject;
 var CATEGORY_DEFAULT_VISUAL_INDEX = -1;
@@ -45753,7 +45753,7 @@ function littleThan(close, a, b) {
 }
 var VisualMapping_default = VisualMapping;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/treemapVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/treemapVisual.js
 var ITEM_STYLE_NORMAL = "itemStyle";
 var inner10 = makeInner();
 var treemapVisual_default = {
@@ -45886,7 +45886,7 @@ function mapVisual(nodeModel, visuals, child, index, mapping, seriesModel) {
   return childVisuals;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/treemapLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/treemapLayout.js
 var mathMax8 = Math.max;
 var mathMin8 = Math.min;
 var retrieveValue = retrieve;
@@ -46241,7 +46241,7 @@ function getUpperLabelHeight(model) {
   return model.get(PATH_UPPER_LABEL_SHOW) ? model.get(PATH_UPPER_LABEL_HEIGHT) : 0;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/treemap/install.js
 function install13(registers) {
   registers.registerSeriesModel(TreemapSeries_default);
   registers.registerChartView(TreemapView_default);
@@ -46250,7 +46250,7 @@ function install13(registers) {
   installTreemapAction(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/categoryFilter.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/categoryFilter.js
 function categoryFilter(ecModel) {
   var legendModels = ecModel.findComponents({
     mainType: "legend"
@@ -46281,7 +46281,7 @@ function categoryFilter(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/categoryVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/categoryVisual.js
 function categoryVisual(ecModel) {
   var paletteScope = {};
   ecModel.eachSeriesByType("graph", function(seriesModel) {
@@ -46326,7 +46326,7 @@ function categoryVisual(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/edgeVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/edgeVisual.js
 function normalize3(a) {
   if (!(a instanceof Array)) {
     a = [a, a];
@@ -46372,7 +46372,7 @@ function graphEdgeVisual(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/multipleGraphEdgeHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/multipleGraphEdgeHelper.js
 var KEY_DELIMITER = "-->";
 var getAutoCurvenessParams = function(seriesModel) {
   return seriesModel.get("autoCurveness") || null;
@@ -46488,7 +46488,7 @@ function getCurvenessForEdge(edge, seriesModel, index, needReverse) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/simpleLayoutHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/simpleLayoutHelper.js
 function simpleLayout(seriesModel) {
   var coordSys = seriesModel.coordinateSystem;
   if (coordSys && coordSys.type !== "view") {
@@ -46514,7 +46514,7 @@ function simpleLayoutEdge(graph, seriesModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/simpleLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/simpleLayout.js
 function graphSimpleLayout(ecModel, api) {
   ecModel.eachSeriesByType("graph", function(seriesModel) {
     var layout5 = seriesModel.get("layout");
@@ -46548,7 +46548,7 @@ function graphSimpleLayout(ecModel, api) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/graphHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/graphHelper.js
 function getNodeGlobalScale(seriesModel) {
   var coordSys = seriesModel.coordinateSystem;
   if (coordSys.type !== "view") {
@@ -46568,7 +46568,7 @@ function getSymbolSize(node) {
   return +symbolSize;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/circularLayoutHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/circularLayoutHelper.js
 var PI8 = Math.PI;
 var _symbolRadiansHalf = [];
 function circularLayout(seriesModel, basedOn, draggingNode, pointer) {
@@ -46686,7 +46686,7 @@ function rotateNodeLabel(node, circularRotateLabel, cx, cy) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/circularLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/circularLayout.js
 function graphCircularLayout(ecModel) {
   ecModel.eachSeriesByType("graph", function(seriesModel) {
     if (seriesModel.get("layout") === "circular") {
@@ -46695,7 +46695,7 @@ function graphCircularLayout(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/forceHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/forceHelper.js
 var scaleAndAdd2 = scaleAndAdd;
 function forceLayout(inNodes, inEdges, opts) {
   var nodes = inNodes;
@@ -46805,7 +46805,7 @@ function forceLayout(inNodes, inEdges, opts) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/forceLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/forceLayout.js
 function graphForceLayout(ecModel) {
   ecModel.eachSeriesByType("graph", function(graphSeries) {
     var coordSys = graphSeries.coordinateSystem;
@@ -46911,7 +46911,7 @@ function graphForceLayout(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/createView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/createView.js
 function getViewRect3(seriesModel, api, aspect) {
   var option = extend(seriesModel.getBoxLayoutParams(), {
     aspect
@@ -46964,7 +46964,7 @@ function createViewCoordSys(ecModel, api) {
   return viewList;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LinePath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LinePath.js
 var straightLineProto = Line_default.prototype;
 var bezierCurveProto = BezierCurve_default.prototype;
 var StraightLineShape = (
@@ -47035,7 +47035,7 @@ var ECLinePath = (
 );
 var LinePath_default = ECLinePath;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/Line.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/Line.js
 var SYMBOL_CATEGORIES = ["fromSymbol", "toSymbol"];
 function makeSymbolTypeKey(symbolCategory) {
   return "_" + symbolCategory + "Type";
@@ -47385,7 +47385,7 @@ var Line2 = (
 );
 var Line_default2 = Line2;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LineDraw.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LineDraw.js
 var LineDraw = (
   /** @class */
   function() {
@@ -47507,7 +47507,7 @@ function lineNeedsDraw(pts) {
 }
 var LineDraw_default = LineDraw;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/adjustEdge.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/adjustEdge.js
 var v1 = [];
 var v2 = [];
 var v3 = [];
@@ -47623,7 +47623,7 @@ function adjustEdge(graph, scale4) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/GraphView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/GraphView.js
 function isViewCoordSys(coordSys) {
   return coordSys.type === "view";
 }
@@ -47830,7 +47830,7 @@ var GraphView = (
 );
 var GraphView_default = GraphView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/data/Graph.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/data/Graph.js
 function generateNodeKey(id) {
   return "_EC_" + id;
 }
@@ -48194,7 +48194,7 @@ mixin(GraphNode, createGraphDataProxyMixin("hostGraph", "data"));
 mixin(GraphEdge, createGraphDataProxyMixin("hostGraph", "edgeData"));
 var Graph_default = Graph;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createGraphFromNodeEdge.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/createGraphFromNodeEdge.js
 function createGraphFromNodeEdge(nodes, edges, seriesModel, directed, beforeLink) {
   var graph = new Graph_default(directed);
   for (var i = 0; i < nodes.length; i++) {
@@ -48255,7 +48255,7 @@ function createGraphFromNodeEdge(nodes, edges, seriesModel, directed, beforeLink
   return graph;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/GraphSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/GraphSeries.js
 var GraphSeriesModel = (
   /** @class */
   function(_super) {
@@ -48473,7 +48473,7 @@ var GraphSeriesModel = (
 );
 var GraphSeries_default = GraphSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/graph/install.js
 var actionInfo = {
   type: "graphRoam",
   event: "graphRoam",
@@ -48515,7 +48515,7 @@ function install14(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/PointerPath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/PointerPath.js
 var PointerShape = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -48561,7 +48561,7 @@ var PointerPath = (
 );
 var PointerPath_default = PointerPath;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/GaugeView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/GaugeView.js
 function parsePosition(seriesModel, api) {
   var center3 = seriesModel.get("center");
   var width = api.getWidth();
@@ -49060,7 +49060,7 @@ var GaugeView = (
 );
 var GaugeView_default = GaugeView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/GaugeSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/GaugeSeries.js
 var GaugeSeriesModel = (
   /** @class */
   function(_super) {
@@ -49204,13 +49204,13 @@ var GaugeSeriesModel = (
 );
 var GaugeSeries_default = GaugeSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/gauge/install.js
 function install15(registers) {
   registers.registerChartView(GaugeView_default);
   registers.registerSeriesModel(GaugeSeries_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/FunnelView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/FunnelView.js
 var opacityAccessPath = ["itemStyle", "opacity"];
 var FunnelPiece = (
   /** @class */
@@ -49365,7 +49365,7 @@ var FunnelView = (
 );
 var FunnelView_default = FunnelView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/FunnelSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/FunnelSeries.js
 var FunnelSeriesModel = (
   /** @class */
   function(_super) {
@@ -49457,7 +49457,7 @@ var FunnelSeriesModel = (
 );
 var FunnelSeries_default = FunnelSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/funnelLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/funnelLayout.js
 function getViewRect4(seriesModel, api) {
   return getLayoutRect(seriesModel.getBoxLayoutParams(), {
     width: api.getWidth(),
@@ -49745,7 +49745,7 @@ function funnelLayout(ecModel, api) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/funnel/install.js
 function install16(registers) {
   registers.registerChartView(FunnelView_default);
   registers.registerSeriesModel(FunnelSeries_default);
@@ -49753,7 +49753,7 @@ function install16(registers) {
   registers.registerProcessor(dataFilter("funnel"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/ParallelView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/ParallelView.js
 var DEFAULT_SMOOTH = 0.3;
 var ParallelView = (
   /** @class */
@@ -49903,7 +49903,7 @@ function isEmptyValue(val, axisType) {
 }
 var ParallelView_default = ParallelView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/ParallelSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/ParallelSeries.js
 var ParallelSeriesModel = (
   /** @class */
   function(_super) {
@@ -49977,7 +49977,7 @@ function convertDimNameToNumber(dimName) {
 }
 var ParallelSeries_default = ParallelSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/parallelVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/parallelVisual.js
 var opacityAccessPath2 = ["lineStyle", "opacity"];
 var parallelVisual = {
   seriesType: "parallel",
@@ -50005,7 +50005,7 @@ var parallelVisual = {
 };
 var parallelVisual_default = parallelVisual;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/parallelPreprocessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/parallelPreprocessor.js
 function parallelPreprocessor(option) {
   createParallelIfNeeded(option);
   mergeAxisOptionFromParallel(option);
@@ -50038,7 +50038,7 @@ function mergeAxisOptionFromParallel(option) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/parallel/ParallelView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/parallel/ParallelView.js
 var CLICK_THRESHOLD = 5;
 var ParallelView2 = (
   /** @class */
@@ -50124,7 +50124,7 @@ function checkTrigger(view, triggerOn) {
 }
 var ParallelView_default2 = ParallelView2;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/ParallelModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/ParallelModel.js
 var ParallelModel = (
   /** @class */
   function(_super) {
@@ -50199,7 +50199,7 @@ var ParallelModel = (
 );
 var ParallelModel_default = ParallelModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/ParallelAxis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/ParallelAxis.js
 var ParallelAxis = (
   /** @class */
   function(_super) {
@@ -50218,7 +50218,7 @@ var ParallelAxis = (
 );
 var ParallelAxis_default = ParallelAxis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/sliderMove.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/sliderMove.js
 function sliderMove(delta, handleEnds, extent3, handleIndex, minSpan, maxSpan) {
   delta = delta || 0;
   var extentSpan = extent3[1] - extent3[0];
@@ -50264,7 +50264,7 @@ function restrict(value, extend2) {
   return Math.min(extend2[1] != null ? extend2[1] : Infinity, Math.max(extend2[0] != null ? extend2[0] : -Infinity, value));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/Parallel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/Parallel.js
 var each6 = each;
 var mathMin9 = Math.min;
 var mathMax9 = Math.max;
@@ -50564,7 +50564,7 @@ function layoutAxisWithExpand(axisIndex, layoutInfo) {
 }
 var Parallel_default = Parallel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/parallelCreator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/parallelCreator.js
 function createParallelCoordSys(ecModel, api) {
   var coordSysList = [];
   ecModel.eachComponent("parallel", function(parallelModel, idx) {
@@ -50588,7 +50588,7 @@ var parallelCoordSysCreator = {
 };
 var parallelCreator_default = parallelCoordSysCreator;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/AxisModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/parallel/AxisModel.js
 var ParallelAxisModel = (
   /** @class */
   function(_super) {
@@ -50646,7 +50646,7 @@ var ParallelAxisModel = (
 mixin(ParallelAxisModel, AxisModelCommonMixin);
 var AxisModel_default = ParallelAxisModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/BrushController.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/BrushController.js
 var BRUSH_PANEL_GLOBAL = true;
 var mathMin10 = Math.min;
 var mathMax10 = Math.max;
@@ -51292,7 +51292,7 @@ function getLineRenderer(xyIndex) {
 }
 var BrushController_default = BrushController;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/brushHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/brushHelper.js
 function makeRectPanelClipPath(rect) {
   rect = normalizeRect(rect);
   return function(localPoints) {
@@ -51318,7 +51318,7 @@ function normalizeRect(rect) {
   return BoundingRect_default.create(rect);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/ParallelAxisView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/ParallelAxisView.js
 var elementList = ["axisLine", "axisTickLabel", "axisName"];
 var ParallelAxisView = (
   /** @class */
@@ -51432,7 +51432,7 @@ function getCoordSysModel(axisModel, ecModel) {
 }
 var ParallelAxisView_default = ParallelAxisView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/parallelAxisAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/parallelAxisAction.js
 var actionInfo2 = {
   type: "axisAreaSelect",
   event: "axisAreaSelected"
@@ -51457,7 +51457,7 @@ function installParallelActions(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/parallel/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/parallel/install.js
 var defaultAxisOption = {
   type: "value",
   areaSelectStyle: {
@@ -51481,7 +51481,7 @@ function install17(registers) {
   installParallelActions(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/parallel/install.js
 function install18(registers) {
   use(install17);
   registers.registerChartView(ParallelView_default);
@@ -51489,7 +51489,7 @@ function install18(registers) {
   registers.registerVisual(registers.PRIORITY.VISUAL.BRUSH, parallelVisual_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/SankeyView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/SankeyView.js
 var SankeyPathShape = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -51769,7 +51769,7 @@ function createGridClipShape2(rect, seriesModel, cb) {
 }
 var SankeyView_default = SankeyView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/SankeySeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/SankeySeries.js
 var SankeySeriesModel = (
   /** @class */
   function(_super) {
@@ -51925,7 +51925,7 @@ var SankeySeriesModel = (
 );
 var SankeySeries_default = SankeySeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/sankeyLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/sankeyLayout.js
 function sankeyLayout(ecModel, api) {
   ecModel.eachSeriesByType("sankey", function(seriesModel) {
     var nodeWidth = seriesModel.get("nodeWidth");
@@ -52307,7 +52307,7 @@ function computeEdgeDepths(nodes, orient) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/sankeyVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/sankeyVisual.js
 function sankeyVisual(ecModel) {
   ecModel.eachSeriesByType("sankey", function(seriesModel) {
     var graph = seriesModel.getGraph();
@@ -52356,7 +52356,7 @@ function sankeyVisual(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sankey/install.js
 function install19(registers) {
   registers.registerChartView(SankeyView_default);
   registers.registerSeriesModel(SankeySeries_default);
@@ -52378,7 +52378,7 @@ function install19(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/whiskerBoxCommon.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/whiskerBoxCommon.js
 var WhiskerBoxCommonMixin = (
   /** @class */
   function() {
@@ -52457,7 +52457,7 @@ var WhiskerBoxCommonMixin = (
   }()
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/BoxplotSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/BoxplotSeries.js
 var BoxplotSeriesModel = (
   /** @class */
   function(_super) {
@@ -52515,7 +52515,7 @@ var BoxplotSeriesModel = (
 mixin(BoxplotSeriesModel, WhiskerBoxCommonMixin, true);
 var BoxplotSeries_default = BoxplotSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/BoxplotView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/BoxplotView.js
 var BoxplotView = (
   /** @class */
   function(_super) {
@@ -52646,7 +52646,7 @@ function transInit(points4, dim, itemLayout) {
 }
 var BoxplotView_default = BoxplotView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/boxplotLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/boxplotLayout.js
 var each7 = each;
 function boxplotLayout(ecModel) {
   var groupResult = groupSeriesByAxis(ecModel);
@@ -52775,7 +52775,7 @@ function layoutSingleSeries(seriesModel, offset, boxWidth) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/prepareBoxplotData.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/prepareBoxplotData.js
 function prepareBoxplotData(rawData, opt) {
   opt = opt || {};
   var boxData = [];
@@ -52811,7 +52811,7 @@ function prepareBoxplotData(rawData, opt) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/boxplotTransform.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/boxplotTransform.js
 var boxplotTransform = {
   type: "echarts:boxplot",
   transform: function transform(params) {
@@ -52833,7 +52833,7 @@ var boxplotTransform = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/boxplot/install.js
 function install20(registers) {
   registers.registerSeriesModel(BoxplotSeries_default);
   registers.registerChartView(BoxplotView_default);
@@ -52841,7 +52841,7 @@ function install20(registers) {
   registers.registerTransform(boxplotTransform);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/CandlestickView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/CandlestickView.js
 var SKIP_PROPS = ["color", "borderColor"];
 var CandlestickView = (
   /** @class */
@@ -53128,7 +53128,7 @@ function setLargeStyle(sign, el, seriesModel, data) {
 }
 var CandlestickView_default = CandlestickView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/CandlestickSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/CandlestickSeries.js
 var CandlestickSeriesModel = (
   /** @class */
   function(_super) {
@@ -53202,7 +53202,7 @@ var CandlestickSeriesModel = (
 mixin(CandlestickSeriesModel, WhiskerBoxCommonMixin, true);
 var CandlestickSeries_default = CandlestickSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/preprocessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/preprocessor.js
 function candlestickPreprocessor(option) {
   if (!option || !isArray(option.series)) {
     return;
@@ -53214,7 +53214,7 @@ function candlestickPreprocessor(option) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/candlestickVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/candlestickVisual.js
 var positiveBorderColorQuery = ["itemStyle", "borderColor"];
 var negativeBorderColorQuery = ["itemStyle", "borderColor0"];
 var dojiBorderColorQuery = ["itemStyle", "borderColorDoji"];
@@ -53254,7 +53254,7 @@ var candlestickVisual = {
 };
 var candlestickVisual_default = candlestickVisual;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/candlestickLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/candlestickLayout.js
 var candlestickLayout = {
   seriesType: "candlestick",
   plan: createRenderPlanner(),
@@ -53396,7 +53396,7 @@ function calculateCandleWidth(seriesModel, data) {
 }
 var candlestickLayout_default = candlestickLayout;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/candlestick/install.js
 function install21(registers) {
   registers.registerChartView(CandlestickView_default);
   registers.registerSeriesModel(CandlestickSeries_default);
@@ -53405,7 +53405,7 @@ function install21(registers) {
   registers.registerLayout(candlestickLayout_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/EffectSymbol.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/EffectSymbol.js
 function updateRipplePath(rippleGroup, effectCfg) {
   var color = effectCfg.rippleEffectColor || effectCfg.color;
   rippleGroup.eachChild(function(ripplePath) {
@@ -53552,7 +53552,7 @@ var EffectSymbol = (
 );
 var EffectSymbol_default = EffectSymbol;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/effectScatter/EffectScatterView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/effectScatter/EffectScatterView.js
 var EffectScatterView = (
   /** @class */
   function(_super) {
@@ -53607,7 +53607,7 @@ var EffectScatterView = (
 );
 var EffectScatterView_default = EffectScatterView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/effectScatter/EffectScatterSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/effectScatter/EffectScatterSeries.js
 var EffectScatterSeriesModel = (
   /** @class */
   function(_super) {
@@ -53671,14 +53671,14 @@ var EffectScatterSeriesModel = (
 );
 var EffectScatterSeries_default = EffectScatterSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/effectScatter/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/effectScatter/install.js
 function install22(registers) {
   registers.registerChartView(EffectScatterView_default);
   registers.registerSeriesModel(EffectScatterSeries_default);
   registers.registerLayout(pointsLayout("effectScatter"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/EffectLine.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/EffectLine.js
 var EffectLine = (
   /** @class */
   function(_super) {
@@ -53828,7 +53828,7 @@ var EffectLine = (
 );
 var EffectLine_default = EffectLine;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/Polyline.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/Polyline.js
 var Polyline2 = (
   /** @class */
   function(_super) {
@@ -53893,7 +53893,7 @@ var Polyline2 = (
 );
 var Polyline_default2 = Polyline2;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/EffectPolyline.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/EffectPolyline.js
 var EffectPolyline = (
   /** @class */
   function(_super) {
@@ -53977,7 +53977,7 @@ var EffectPolyline = (
 );
 var EffectPolyline_default = EffectPolyline;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LargeLineDraw.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/helper/LargeLineDraw.js
 var LargeLinesPathShape = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -54220,7 +54220,7 @@ var LargeLineDraw = (
 );
 var LargeLineDraw_default = LargeLineDraw;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/linesLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/linesLayout.js
 var linesLayout = {
   seriesType: "lines",
   plan: createRenderPlanner(),
@@ -54289,7 +54289,7 @@ var linesLayout = {
 };
 var linesLayout_default = linesLayout;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/LinesView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/LinesView.js
 var LinesView = (
   /** @class */
   function(_super) {
@@ -54415,7 +54415,7 @@ var LinesView = (
 );
 var LinesView_default = LinesView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/LinesSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/LinesSeries.js
 var Uint32Arr = typeof Uint32Array === "undefined" ? Array : Uint32Array;
 var Float64Arr = typeof Float64Array === "undefined" ? Array : Float64Array;
 function compatEc2(seriesOpt) {
@@ -54668,7 +54668,7 @@ var LinesSeriesModel = (
 );
 var LinesSeries_default = LinesSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/linesVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/linesVisual.js
 function normalize4(a) {
   if (!(a instanceof Array)) {
     a = [a, a];
@@ -54701,7 +54701,7 @@ var linesVisual = {
 };
 var linesVisual_default = linesVisual;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/lines/install.js
 function install23(registers) {
   registers.registerChartView(LinesView_default);
   registers.registerSeriesModel(LinesSeries_default);
@@ -54709,7 +54709,7 @@ function install23(registers) {
   registers.registerVisual(linesVisual_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/HeatmapLayer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/HeatmapLayer.js
 var GRADIENT_LEVELS = 256;
 var HeatmapLayer = (
   /** @class */
@@ -54808,7 +54808,7 @@ var HeatmapLayer = (
 );
 var HeatmapLayer_default = HeatmapLayer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/HeatmapView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/HeatmapView.js
 function getIsInPiecewiseRange(dataExtent, pieceList, selected) {
   var dataSpan = dataExtent[1] - dataExtent[0];
   pieceList = map(pieceList, function(piece) {
@@ -55052,7 +55052,7 @@ var HeatmapView = (
 );
 var HeatmapView_default = HeatmapView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/HeatmapSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/HeatmapSeries.js
 var HeatmapSeriesModel = (
   /** @class */
   function(_super) {
@@ -55099,13 +55099,13 @@ var HeatmapSeriesModel = (
 );
 var HeatmapSeries_default = HeatmapSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/heatmap/install.js
 function install24(registers) {
   registers.registerChartView(HeatmapView_default);
   registers.registerSeriesModel(HeatmapSeries_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/PictorialBarView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/PictorialBarView.js
 var BAR_BORDER_WIDTH_QUERY = ["itemStyle", "borderWidth"];
 var LAYOUT_ATTRS = [{
   xy: "x",
@@ -55644,7 +55644,7 @@ function toIntTimes(times) {
 }
 var PictorialBarView_default = PictorialBarView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/PictorialBarSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/PictorialBarSeries.js
 var PictorialBarSeriesModel = (
   /** @class */
   function(_super) {
@@ -55697,7 +55697,7 @@ var PictorialBarSeriesModel = (
 );
 var PictorialBarSeries_default = PictorialBarSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/installPictorialBar.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/bar/installPictorialBar.js
 function install25(registers) {
   registers.registerChartView(PictorialBarView_default);
   registers.registerSeriesModel(PictorialBarSeries_default);
@@ -55705,7 +55705,7 @@ function install25(registers) {
   registers.registerLayout(registers.PRIORITY.VISUAL.PROGRESSIVE_LAYOUT, createProgressiveLayout("pictorialBar"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/ThemeRiverView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/ThemeRiverView.js
 var ThemeRiverView = (
   /** @class */
   function(_super) {
@@ -55840,7 +55840,7 @@ function createGridClipShape3(rect, seriesModel, cb) {
 }
 var ThemeRiverView_default = ThemeRiverView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/ThemeRiverSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/ThemeRiverSeries.js
 var DATA_NAME_INDEX = 2;
 var ThemeRiverSeriesModel = (
   /** @class */
@@ -56017,7 +56017,7 @@ var ThemeRiverSeriesModel = (
 );
 var ThemeRiverSeries_default = ThemeRiverSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/themeRiverLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/themeRiverLayout.js
 function themeRiverLayout(ecModel, api) {
   ecModel.eachSeriesByType("themeRiver", function(seriesModel) {
     var data = seriesModel.getData();
@@ -56114,7 +56114,7 @@ function computeBaseline(data) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/themeRiver/install.js
 function install26(registers) {
   registers.registerChartView(ThemeRiverView_default);
   registers.registerSeriesModel(ThemeRiverSeries_default);
@@ -56122,7 +56122,7 @@ function install26(registers) {
   registers.registerProcessor(dataFilter("themeRiver"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/SunburstPiece.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/SunburstPiece.js
 var DEFAULT_SECTOR_Z = 2;
 var DEFAULT_TEXT_Z = 4;
 var SunburstPiece = (
@@ -56290,7 +56290,7 @@ var SunburstPiece = (
 );
 var SunburstPiece_default = SunburstPiece;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/sunburstAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/sunburstAction.js
 var ROOT_TO_NODE_ACTION = "sunburstRootToNode";
 var HIGHLIGHT_ACTION = "sunburstHighlight";
 var UNHIGHLIGHT_ACTION = "sunburstUnhighlight";
@@ -56352,7 +56352,7 @@ function installSunburstAction(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/SunburstView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/SunburstView.js
 var SunburstView = (
   /** @class */
   function(_super) {
@@ -56491,7 +56491,7 @@ var SunburstView = (
 );
 var SunburstView_default = SunburstView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/SunburstSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/SunburstSeries.js
 var SunburstSeriesModel = (
   /** @class */
   function(_super) {
@@ -56640,7 +56640,7 @@ function completeTreeValue2(dataNode) {
 }
 var SunburstSeries_default = SunburstSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/sunburstLayout.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/sunburstLayout.js
 var RADIAN3 = Math.PI / 180;
 function sunburstLayout(seriesType2, ecModel, api) {
   ecModel.eachSeriesByType(seriesType2, function(seriesModel) {
@@ -56784,7 +56784,7 @@ function sort3(children, sortOrder) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/sunburstVisual.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/sunburstVisual.js
 function sunburstVisual(ecModel) {
   var paletteScope = {};
   function pickColor(node, seriesModel, treeHeight) {
@@ -56813,7 +56813,7 @@ function sunburstVisual(ecModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/sunburst/install.js
 function install27(registers) {
   registers.registerChartView(SunburstView_default);
   registers.registerSeriesModel(SunburstSeries_default);
@@ -56823,7 +56823,7 @@ function install27(registers) {
   installSunburstAction(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/custom/CustomSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/custom/CustomSeries.js
 var STYLE_VISUAL_TYPE = {
   color: "fill",
   borderColor: "stroke"
@@ -56883,7 +56883,7 @@ var CustomSeriesModel = (
 );
 var CustomSeries_default = CustomSeriesModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/prepareCustom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/cartesian/prepareCustom.js
 function dataToCoordSize(dataSize, dataItem) {
   dataItem = dataItem || [0, 0];
   return map(["x", "y"], function(dim, dimIdx) {
@@ -56913,7 +56913,7 @@ function cartesianPrepareCustom(coordSys) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/prepareCustom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/geo/prepareCustom.js
 function dataToCoordSize2(dataSize, dataItem) {
   dataItem = dataItem || [0, 0];
   return map([0, 1], function(dimIdx) {
@@ -56947,7 +56947,7 @@ function geoPrepareCustom(coordSys) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/prepareCustom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/prepareCustom.js
 function dataToCoordSize3(dataSize, dataItem) {
   var axis = this.getAxis();
   var val = dataItem instanceof Array ? dataItem[0] : dataItem;
@@ -56973,7 +56973,7 @@ function singlePrepareCustom(coordSys) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/prepareCustom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/prepareCustom.js
 function dataToCoordSize4(dataSize, dataItem) {
   dataItem = dataItem || [0, 0];
   return map(["Radius", "Angle"], function(dim, dimIdx) {
@@ -57014,7 +57014,7 @@ function polarPrepareCustom(coordSys) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/calendar/prepareCustom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/calendar/prepareCustom.js
 function calendarPrepareCustom(coordSys) {
   var rect = coordSys.getRect();
   var rangeInfo = coordSys.getRangeInfo();
@@ -57042,7 +57042,7 @@ function calendarPrepareCustom(coordSys) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/styleCompat.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/styleCompat.js
 var deprecatedLogs = {};
 function isEC4CompatibleStyle(style, elType, hasOwnTextContentOption, hasOwnTextConfig) {
   return style && (style.legacy || style.legacy !== false && !hasOwnTextContentOption && !hasOwnTextConfig && elType !== "tspan" && (elType === "text" || hasOwn(style, "text")));
@@ -57187,7 +57187,7 @@ function warnDeprecated(deprecated, insteadApproach) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/animation/customGraphicTransition.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/animation/customGraphicTransition.js
 var LEGACY_TRANSFORM_PROPS_MAP = {
   position: ["x", "y"],
   scale: ["scaleX", "scaleY"],
@@ -57561,7 +57561,7 @@ if (true) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/animation/customGraphicKeyframeAnimation.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/animation/customGraphicKeyframeAnimation.js
 var getStateToRestore = makeInner();
 var KEYFRAME_EXCLUDE_KEYS = ["percent", "easing", "shape", "style", "extra"];
 function stopPreviousKeyframeAnimationAndRestore(el) {
@@ -57645,7 +57645,7 @@ function applyKeyframeAnimation(el, animationOpts, animatableModel) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/custom/CustomView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/custom/CustomView.js
 var EMPHASIS = "emphasis";
 var NORMAL = "normal";
 var BLUR = "blur";
@@ -58312,13 +58312,13 @@ function hasOwnPathData(shape) {
   return shape && (hasOwn(shape, "pathData") || hasOwn(shape, "d"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/chart/custom/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/chart/custom/install.js
 function install28(registers) {
   registers.registerChartView(CustomView_default);
   registers.registerSeriesModel(CustomSeries_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/BaseAxisPointer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/BaseAxisPointer.js
 var inner11 = makeInner();
 var clone4 = clone;
 var bind2 = bind;
@@ -58594,7 +58594,7 @@ function updateMandatoryProps(group, axisPointerModel, silent) {
 }
 var BaseAxisPointer_default = BaseAxisPointer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/viewHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/viewHelper.js
 function buildElStyle(axisPointerModel) {
   var axisPointerType = axisPointerModel.get("type");
   var styleModel = axisPointerModel.getModel(axisPointerType + "Style");
@@ -58733,7 +58733,7 @@ function makeSectorShape(cx, cy, r0, r, startAngle, endAngle) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/CartesianAxisPointer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/CartesianAxisPointer.js
 var CartesianAxisPointer = (
   /** @class */
   function(_super) {
@@ -58834,7 +58834,7 @@ function getAxisDimIndex(axis) {
 }
 var CartesianAxisPointer_default = CartesianAxisPointer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/AxisPointerModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/AxisPointerModel.js
 var AxisPointerModel = (
   /** @class */
   function(_super) {
@@ -58906,7 +58906,7 @@ var AxisPointerModel = (
 );
 var AxisPointerModel_default = AxisPointerModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/globalListener.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/globalListener.js
 var inner12 = makeInner();
 var each8 = each;
 function register(key, api, handler) {
@@ -58987,7 +58987,7 @@ function unregister(key, api) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/AxisPointerView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/AxisPointerView.js
 var AxisPointerView = (
   /** @class */
   function(_super) {
@@ -59023,7 +59023,7 @@ var AxisPointerView = (
 );
 var AxisPointerView_default = AxisPointerView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/findPointFromSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/findPointFromSeries.js
 function findPointFromSeries(finder, ecModel) {
   var point = [];
   var seriesIndex = finder.seriesIndex;
@@ -59072,7 +59072,7 @@ function findPointFromSeries(finder, ecModel) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/axisTrigger.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/axisTrigger.js
 var inner13 = makeInner();
 function axisTrigger(payload, ecModel, api) {
   var currTrigger = payload.currTrigger;
@@ -59359,7 +59359,7 @@ function illegalPoint(point) {
   return !point || point[0] == null || isNaN(point[0]) || point[1] == null || isNaN(point[1]);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/install.js
 function install29(registers) {
   AxisView_default.registerAxisPointerClass("CartesianAxisPointer", CartesianAxisPointer_default);
   registers.registerComponentModel(AxisPointerModel_default);
@@ -59383,13 +59383,13 @@ function install29(registers) {
   }, axisTrigger);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/grid/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/grid/install.js
 function install30(registers) {
   use(install6);
   use(install29);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/PolarAxisPointer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/PolarAxisPointer.js
 var PolarAxisPointer = (
   /** @class */
   function(_super) {
@@ -59489,7 +59489,7 @@ var pointerShapeBuilder2 = {
 };
 var PolarAxisPointer_default = PolarAxisPointer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/PolarModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/PolarModel.js
 var PolarModel = (
   /** @class */
   function(_super) {
@@ -59522,7 +59522,7 @@ var PolarModel = (
 );
 var PolarModel_default = PolarModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/AxisModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/AxisModel.js
 var PolarAxisModel = (
   /** @class */
   function(_super) {
@@ -59565,7 +59565,7 @@ var RadiusAxisModel = (
   }(PolarAxisModel)
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/RadiusAxis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/RadiusAxis.js
 var RadiusAxis = (
   /** @class */
   function(_super) {
@@ -59583,7 +59583,7 @@ RadiusAxis.prototype.dataToRadius = Axis_default.prototype.dataToCoord;
 RadiusAxis.prototype.radiusToData = Axis_default.prototype.coordToData;
 var RadiusAxis_default = RadiusAxis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/AngleAxis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/AngleAxis.js
 var inner14 = makeInner();
 var AngleAxis = (
   /** @class */
@@ -59630,7 +59630,7 @@ AngleAxis.prototype.dataToAngle = Axis_default.prototype.dataToCoord;
 AngleAxis.prototype.angleToData = Axis_default.prototype.coordToData;
 var AngleAxis_default = AngleAxis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/Polar.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/Polar.js
 var polarDimensions = ["radius", "angle"];
 var Polar = (
   /** @class */
@@ -59763,7 +59763,7 @@ function getCoordSys3(finder) {
 }
 var Polar_default = Polar;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/polarCreator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/polar/polarCreator.js
 function resizePolar(polar, polarModel, api) {
   var center3 = polarModel.get("center");
   var width = api.getWidth();
@@ -59859,7 +59859,7 @@ var polarCreator = {
 };
 var polarCreator_default = polarCreator;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/AngleAxisView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/AngleAxisView.js
 var elementList2 = ["axisLine", "axisLabel", "axisTick", "minorTick", "splitLine", "minorSplitLine", "splitArea"];
 function getAxisLineShape(polar, rExtent, angle) {
   rExtent[1] > rExtent[0] && (rExtent = rExtent.slice().reverse());
@@ -60128,7 +60128,7 @@ var angelAxisElementsBuilders = {
 };
 var AngleAxisView_default = AngleAxisView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/RadiusAxisView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/RadiusAxisView.js
 var axisBuilderAttrs3 = ["axisLine", "axisTickLabel", "axisName"];
 var selfBuilderAttrs2 = ["splitLine", "splitArea", "minorSplitLine"];
 var RadiusAxisView = (
@@ -60284,7 +60284,7 @@ function layoutAxis(polar, radiusAxisModel, axisAngle) {
 }
 var RadiusAxisView_default = RadiusAxisView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/layout/barPolar.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/layout/barPolar.js
 function getSeriesStackId2(seriesModel) {
   return seriesModel.get("stack") || "__ec_stack_" + seriesModel.seriesIndex;
 }
@@ -60475,7 +60475,7 @@ function calRadialBar(barSeries) {
 }
 var barPolar_default = barLayoutPolar;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/polar/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/polar/install.js
 var angleAxisExtraOption = {
   startAngle: 90,
   clockwise: true,
@@ -60513,7 +60513,7 @@ function install31(registers) {
   registers.registerLayout(curry(barPolar_default, "bar"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/singleAxisHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/singleAxisHelper.js
 function layout3(axisModel, opt) {
   opt = opt || {};
   var single = axisModel.coordinateSystem;
@@ -60559,7 +60559,7 @@ function layout3(axisModel, opt) {
   return layout5;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/SingleAxisView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axis/SingleAxisView.js
 var axisBuilderAttrs4 = ["axisLine", "axisTickLabel", "axisName"];
 var selfBuilderAttrs3 = ["splitArea", "splitLine"];
 var SingleAxisView = (
@@ -60660,7 +60660,7 @@ var axisElementBuilders3 = {
 };
 var SingleAxisView_default = SingleAxisView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/AxisModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/AxisModel.js
 var SingleAxisModel = (
   /** @class */
   function(_super) {
@@ -60721,7 +60721,7 @@ var SingleAxisModel = (
 mixin(SingleAxisModel, AxisModelCommonMixin.prototype);
 var AxisModel_default2 = SingleAxisModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/SingleAxis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/SingleAxis.js
 var SingleAxis = (
   /** @class */
   function(_super) {
@@ -60744,7 +60744,7 @@ var SingleAxis = (
 );
 var SingleAxis_default = SingleAxis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/Single.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/Single.js
 var singleDimensions = ["single"];
 var Single = (
   /** @class */
@@ -60881,7 +60881,7 @@ function getCoordSys4(finder) {
 }
 var Single_default = Single;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/singleCreator.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/single/singleCreator.js
 function create3(ecModel, api) {
   var singles = [];
   ecModel.eachComponent("singleAxis", function(axisModel, idx) {
@@ -60905,7 +60905,7 @@ var singleCreator = {
 };
 var singleCreator_default = singleCreator;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/SingleAxisPointer.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/axisPointer/SingleAxisPointer.js
 var XY = ["x", "y"];
 var WH = ["width", "height"];
 var SingleAxisPointer = (
@@ -61004,7 +61004,7 @@ function getGlobalExtent(coordSys, dimIndex) {
 }
 var SingleAxisPointer_default = SingleAxisPointer;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/singleAxis/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/singleAxis/install.js
 var SingleView = (
   /** @class */
   function(_super) {
@@ -61028,7 +61028,7 @@ function install32(registers) {
   registers.registerCoordinateSystem("single", singleCreator_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/calendar/CalendarModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/calendar/CalendarModel.js
 var CalendarModel = (
   /** @class */
   function(_super) {
@@ -61134,7 +61134,7 @@ function mergeAndNormalizeLayoutParams(target, raw) {
 }
 var CalendarModel_default = CalendarModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/calendar/CalendarView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/calendar/CalendarView.js
 var CalendarView = (
   /** @class */
   function(_super) {
@@ -61457,7 +61457,7 @@ var CalendarView = (
 );
 var CalendarView_default = CalendarView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/coord/calendar/Calendar.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/coord/calendar/Calendar.js
 var PROXIMATE_ONE_DAY = 864e5;
 var Calendar = (
   /** @class */
@@ -61718,14 +61718,14 @@ function getCoordSys5(finder) {
 }
 var Calendar_default = Calendar;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/calendar/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/calendar/install.js
 function install33(registers) {
   registers.registerComponentModel(CalendarModel_default);
   registers.registerComponentView(CalendarView_default);
   registers.registerCoordinateSystem("calendar", Calendar_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/graphic/GraphicModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/graphic/GraphicModel.js
 function setKeyInfoToNewElOption(resultItem, newElOption) {
   var existElOption = resultItem.existing;
   newElOption.id = resultItem.keyInfo.id;
@@ -61886,7 +61886,7 @@ var GraphicComponentModel = (
   }(Component_default)
 );
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/graphic/GraphicView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/graphic/GraphicView.js
 var nonShapeGraphicElements = {
   // Reserved but not supported in graphic component.
   path: null,
@@ -62184,7 +62184,7 @@ function setEventData(el, graphicModel, elOption) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/graphic/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/graphic/install.js
 function install34(registers) {
   registers.registerComponentModel(GraphicComponentModel);
   registers.registerComponentView(GraphicComponentView);
@@ -62206,7 +62206,7 @@ function install34(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/helper.js
 var DATA_ZOOM_AXIS_DIMENSIONS = ["x", "y", "radius", "angle", "single"];
 var SERIES_COORDS = ["cartesian2d", "polar", "singleAxis"];
 function isCoordSupported(seriesModel) {
@@ -62294,7 +62294,7 @@ function collectReferCoordSysModelInfo(dataZoomModel) {
   return coordSysInfoWrap;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/DataZoomModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/DataZoomModel.js
 var DataZoomAxisInfo = (
   /** @class */
   function() {
@@ -62588,7 +62588,7 @@ function retrieveRawOption(option) {
 }
 var DataZoomModel_default = DataZoomModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SelectZoomModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SelectZoomModel.js
 var SelectDataZoomModel = (
   /** @class */
   function(_super) {
@@ -62604,7 +62604,7 @@ var SelectDataZoomModel = (
 );
 var SelectZoomModel_default = SelectDataZoomModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/DataZoomView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/DataZoomView.js
 var DataZoomView = (
   /** @class */
   function(_super) {
@@ -62625,7 +62625,7 @@ var DataZoomView = (
 );
 var DataZoomView_default = DataZoomView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SelectZoomView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SelectZoomView.js
 var SelectDataZoomView = (
   /** @class */
   function(_super) {
@@ -62641,7 +62641,7 @@ var SelectDataZoomView = (
 );
 var SelectZoomView_default = SelectDataZoomView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/AxisProxy.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/AxisProxy.js
 var each9 = each;
 var asc2 = asc;
 var AxisProxy = (
@@ -62843,7 +62843,7 @@ function calculateDataExtent(axisProxy, axisDim, seriesModels) {
 }
 var AxisProxy_default = AxisProxy;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/dataZoomProcessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/dataZoomProcessor.js
 var dataZoomProcessor = {
   // `dataZoomProcessor` will only be performed in needed series. Consider if
   // there is a line series and a pie series, it is better not to update the
@@ -62904,7 +62904,7 @@ var dataZoomProcessor = {
 };
 var dataZoomProcessor_default = dataZoomProcessor;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/dataZoomAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/dataZoomAction.js
 function installDataZoomAction(registers) {
   registers.registerAction("dataZoom", function(payload, ecModel) {
     var effectedModels = findEffectedDataZooms(ecModel, payload);
@@ -62919,7 +62919,7 @@ function installDataZoomAction(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installCommon.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installCommon.js
 var installed = false;
 function installCommon(registers) {
   if (installed) {
@@ -62933,14 +62933,14 @@ function installCommon(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installDataZoomSelect.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installDataZoomSelect.js
 function install35(registers) {
   registers.registerComponentModel(SelectZoomModel_default);
   registers.registerComponentView(SelectZoomView_default);
   installCommon(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/featureManager.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/featureManager.js
 var ToolboxFeature = (
   /** @class */
   /* @__PURE__ */ function() {
@@ -62957,7 +62957,7 @@ function getFeature(name) {
   return features[name];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/ToolboxModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/ToolboxModel.js
 var ToolboxModel = (
   /** @class */
   function(_super) {
@@ -63023,7 +63023,7 @@ var ToolboxModel = (
 );
 var ToolboxModel_default = ToolboxModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/listComponent.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/listComponent.js
 function layout4(group, componentModel, api) {
   var boxLayoutParams = componentModel.getBoxLayoutParams();
   var padding = componentModel.get("padding");
@@ -63054,7 +63054,7 @@ function makeBackground(rect, componentModel) {
   return rect;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/ToolboxView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/ToolboxView.js
 var ToolboxView = (
   /** @class */
   function(_super) {
@@ -63270,7 +63270,7 @@ function isUserFeatureName(featureName) {
 }
 var ToolboxView_default = ToolboxView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/SaveAsImage.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/SaveAsImage.js
 var SaveAsImage = (
   /** @class */
   function(_super) {
@@ -63361,7 +63361,7 @@ var SaveAsImage = (
 );
 var SaveAsImage_default = SaveAsImage;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/MagicType.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/MagicType.js
 var INNER_STACK_KEYWORD = "__ec_magicType_stack__";
 var radioTypes = [["line", "bar"], ["stack"]];
 var MagicType = (
@@ -63517,7 +63517,7 @@ registerAction({
 });
 var MagicType_default = MagicType;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/DataView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/DataView.js
 var BLOCK_SPLITER = new Array(60).join("-");
 var ITEM_SPLITER = "	";
 function groupSeries(ecModel) {
@@ -63878,7 +63878,7 @@ registerAction({
 });
 var DataView_default = DataView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/history.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/history.js
 var each10 = each;
 var inner16 = makeInner();
 function push(ecModel, newSnapshot) {
@@ -63939,7 +63939,7 @@ function getStoreSnapshots(ecModel) {
   return store.snapshots;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/Restore.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/Restore.js
 var RestoreOption = (
   /** @class */
   function(_super) {
@@ -63975,7 +63975,7 @@ registerAction({
 });
 var Restore_default = RestoreOption;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/BrushTargetManager.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/helper/BrushTargetManager.js
 var INCLUDE_FINDER_MAIN_TYPES = ["grid", "xAxis", "yAxis", "geo", "graph", "polar", "radiusAxis", "angleAxis", "bmap"];
 var BrushTargetManager = (
   /** @class */
@@ -64239,7 +64239,7 @@ function getSize2(xyMinMax) {
 }
 var BrushTargetManager_default = BrushTargetManager;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/DataZoom.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/DataZoom.js
 var each11 = each;
 var DATA_ZOOM_ID_BASE = makeInternalComponentId("toolbox-dataZoom_");
 var DataZoomFeature = (
@@ -64435,7 +64435,7 @@ registerInternalOptionCreator("dataZoom", function(ecModel) {
 });
 var DataZoom_default = DataZoomFeature;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/install.js
 function install36(registers) {
   registers.registerComponentModel(ToolboxModel_default);
   registers.registerComponentView(ToolboxView_default);
@@ -64447,7 +64447,7 @@ function install36(registers) {
   use(install35);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipModel.js
 var TooltipModel = (
   /** @class */
   function(_super) {
@@ -64531,7 +64531,7 @@ var TooltipModel = (
 );
 var TooltipModel_default = TooltipModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/helper.js
 function shouldTooltipConfine(tooltipModel) {
   var confineOption = tooltipModel.get("confine");
   return confineOption != null ? !!confineOption : tooltipModel.get("renderMode") === "richText";
@@ -64563,7 +64563,7 @@ function getComputedStyle(el, style) {
   return stl ? style ? stl[style] : stl : null;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipHTMLContent.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipHTMLContent.js
 var CSS_TRANSITION_VENDOR = toCSSVendorPrefix(TRANSITION_VENDOR, "transition");
 var CSS_TRANSFORM_VENDOR = toCSSVendorPrefix(TRANSFORM_VENDOR, "transform");
 var gCssText = "position:absolute;display:block;border-style:solid;white-space:nowrap;z-index:9999999;" + (env_default.transform3dSupported ? "will-change:transform;" : "");
@@ -64851,7 +64851,7 @@ var TooltipHTMLContent = (
 );
 var TooltipHTMLContent_default = TooltipHTMLContent;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipRichContent.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipRichContent.js
 var TooltipRichContent = (
   /** @class */
   function() {
@@ -65000,7 +65000,7 @@ function makeStyleCoord2(out2, zr, zrX, zrY) {
 }
 var TooltipRichContent_default = TooltipRichContent;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/TooltipView.js
 var proxyRect = new Rect_default({
   shape: {
     x: -1,
@@ -65661,7 +65661,7 @@ function findComponentReference(payload, ecModel, api) {
 }
 var TooltipView_default = TooltipView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/tooltip/install.js
 function install37(registers) {
   use(install29);
   registers.registerComponentModel(TooltipModel_default);
@@ -65678,7 +65678,7 @@ function install37(registers) {
   }, noop);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/preprocessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/preprocessor.js
 var DEFAULT_TOOLBOX_BTNS = ["rect", "polygon", "keep", "clear"];
 function brushPreprocessor(option, isNew) {
   var brushComponents = normalizeToArray(option ? option.brush : []);
@@ -65722,7 +65722,7 @@ function removeDuplicate(arr) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/visualSolution.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/visualSolution.js
 var each12 = each;
 function hasKeys(obj) {
   if (obj) {
@@ -65849,7 +65849,7 @@ function incrementalApplyVisual(stateList, visualMappings, getValueState, dim) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/selector.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/selector.js
 function makeBrushCommonSelectorForSeries(area) {
   var brushType = area.brushType;
   var selectors = {
@@ -65918,7 +65918,7 @@ function inLineRange(p, range) {
   return range[0] <= p && p <= range[1];
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/visualEncoding.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/visualEncoding.js
 var STATE_LIST = ["inBrush", "outOfBrush"];
 var DISPATCH_METHOD = "__ecBrushSelect";
 var DISPATCH_FLAG = "__ecInBrushSelectEvent";
@@ -66092,7 +66092,7 @@ function getBoundingRectFromMinMax(minMax) {
   return new BoundingRect_default(minMax[0][0], minMax[1][0], minMax[0][1] - minMax[0][0], minMax[1][1] - minMax[1][0]);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/BrushView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/BrushView.js
 var BrushView = (
   /** @class */
   function(_super) {
@@ -66150,7 +66150,7 @@ var BrushView = (
 );
 var BrushView_default = BrushView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/BrushModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/BrushModel.js
 var DEFAULT_OUT_OF_BRUSH_COLOR = "#ddd";
 var BrushModel = (
   /** @class */
@@ -66224,7 +66224,7 @@ function generateBrushOption(option, brushOption) {
 }
 var BrushModel_default = BrushModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/Brush.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/toolbox/feature/Brush.js
 var ICON_TYPES = ["rect", "polygon", "lineX", "lineY", "keep", "clear"];
 var BrushFeature = (
   /** @class */
@@ -66316,7 +66316,7 @@ var BrushFeature = (
 );
 var Brush_default = BrushFeature;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/brush/install.js
 function install38(registers) {
   registers.registerComponentView(BrushView_default);
   registers.registerComponentModel(BrushModel_default);
@@ -66347,7 +66347,7 @@ function install38(registers) {
   registerFeature("brush", Brush_default);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/title/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/title/install.js
 var TitleModel = (
   /** @class */
   function(_super) {
@@ -66519,7 +66519,7 @@ function install39(registers) {
   registers.registerComponentView(TitleView);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/TimelineModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/TimelineModel.js
 var TimelineModel = (
   /** @class */
   function(_super) {
@@ -66636,7 +66636,7 @@ var TimelineModel = (
 );
 var TimelineModel_default = TimelineModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/SliderTimelineModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/SliderTimelineModel.js
 var SliderTimelineModel = (
   /** @class */
   function(_super) {
@@ -66749,7 +66749,7 @@ var SliderTimelineModel = (
 mixin(SliderTimelineModel, DataFormatMixin.prototype);
 var SliderTimelineModel_default = SliderTimelineModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/TimelineView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/TimelineView.js
 var TimelineView = (
   /** @class */
   function(_super) {
@@ -66765,7 +66765,7 @@ var TimelineView = (
 );
 var TimelineView_default = TimelineView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/TimelineAxis.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/TimelineAxis.js
 var TimelineAxis = (
   /** @class */
   function(_super) {
@@ -66786,7 +66786,7 @@ var TimelineAxis = (
 );
 var TimelineAxis_default = TimelineAxis;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/SliderTimelineView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/SliderTimelineView.js
 var PI10 = Math.PI;
 var labelDataIndexStore = makeInner();
 var SliderTimelineView = (
@@ -67338,7 +67338,7 @@ function pointerMoveTo(pointer, progressLine, dataIndex, axis, timelineModel, no
 }
 var SliderTimelineView_default = SliderTimelineView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/timelineAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/timelineAction.js
 function installTimelineAction(registers) {
   registers.registerAction({
     type: "timelineChange",
@@ -67376,7 +67376,7 @@ function installTimelineAction(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/preprocessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/preprocessor.js
 function timelinePreprocessor(option) {
   var timelineOpt = option && option.timeline;
   if (!isArray(timelineOpt)) {
@@ -67443,7 +67443,7 @@ function has(obj, attr) {
   return obj.hasOwnProperty(attr);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/timeline/install.js
 function install40(registers) {
   registers.registerComponentModel(SliderTimelineModel_default);
   registers.registerComponentView(SliderTimelineView_default);
@@ -67454,7 +67454,7 @@ function install40(registers) {
   registers.registerPreprocessor(timelinePreprocessor);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/checkMarkerInSeries.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/checkMarkerInSeries.js
 function checkMarkerInSeries(seriesOpts, markerType) {
   if (!seriesOpts) {
     return false;
@@ -67468,7 +67468,7 @@ function checkMarkerInSeries(seriesOpts, markerType) {
   return false;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkerModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkerModel.js
 function fillLabel(opt) {
   defaultEmphasis(opt, "label", ["show"]);
 }
@@ -67571,7 +67571,7 @@ var MarkerModel = (
 mixin(MarkerModel, DataFormatMixin.prototype);
 var MarkerModel_default = MarkerModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkPointModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkPointModel.js
 var MarkPointModel = (
   /** @class */
   function(_super) {
@@ -67613,7 +67613,7 @@ var MarkPointModel = (
 );
 var MarkPointModel_default = MarkPointModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/markerHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/markerHelper.js
 function hasXOrY(item) {
   return !(isNaN(parseFloat(item.x)) && isNaN(parseFloat(item.y)));
 }
@@ -67729,7 +67729,7 @@ function numCalculate(data, valueDataDim, type) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkerView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkerView.js
 var inner18 = makeInner();
 var MarkerView = (
   /** @class */
@@ -67780,7 +67780,7 @@ var MarkerView = (
 );
 var MarkerView_default = MarkerView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkPointView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkPointView.js
 function updateMarkerLayout(mpData, seriesModel, api) {
   var coordSys = seriesModel.coordinateSystem;
   mpData.each(function(idx) {
@@ -67912,7 +67912,7 @@ function createData(coordSys, seriesModel, mpModel) {
 }
 var MarkPointView_default = MarkPointView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/installMarkPoint.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/installMarkPoint.js
 function install41(registers) {
   registers.registerComponentModel(MarkPointModel_default);
   registers.registerComponentView(MarkPointView_default);
@@ -67923,7 +67923,7 @@ function install41(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkLineModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkLineModel.js
 var MarkLineModel = (
   /** @class */
   function(_super) {
@@ -67971,7 +67971,7 @@ var MarkLineModel = (
 );
 var MarkLineModel_default = MarkLineModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkLineView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkLineView.js
 var inner19 = makeInner();
 var markLineTransform = function(seriesModel, coordSys, mlModel, item) {
   var data = seriesModel.getData();
@@ -68236,7 +68236,7 @@ function createList2(coordSys, seriesModel, mlModel) {
 }
 var MarkLineView_default = MarkLineView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/installMarkLine.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/installMarkLine.js
 function install42(registers) {
   registers.registerComponentModel(MarkLineModel_default);
   registers.registerComponentView(MarkLineView_default);
@@ -68247,7 +68247,7 @@ function install42(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkAreaModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkAreaModel.js
 var MarkAreaModel = (
   /** @class */
   function(_super) {
@@ -68292,7 +68292,7 @@ var MarkAreaModel = (
 );
 var MarkAreaModel_default = MarkAreaModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkAreaView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/MarkAreaView.js
 var inner20 = makeInner();
 var markAreaTransform = function(seriesModel, coordSys, maModel, item) {
   var item0 = item[0];
@@ -68568,7 +68568,7 @@ function createList3(coordSys, seriesModel, maModel) {
 }
 var MarkAreaView_default = MarkAreaView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/installMarkArea.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/marker/installMarkArea.js
 function install43(registers) {
   registers.registerComponentModel(MarkAreaModel_default);
   registers.registerComponentView(MarkAreaView_default);
@@ -68579,7 +68579,7 @@ function install43(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/LegendModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/LegendModel.js
 var getDefaultSelectorOptions = function(ecModel, type) {
   if (type === "all") {
     return {
@@ -68835,7 +68835,7 @@ var LegendModel = (
 );
 var LegendModel_default = LegendModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/LegendView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/LegendView.js
 var curry2 = curry;
 var each13 = each;
 var Group3 = Group_default;
@@ -69242,7 +69242,7 @@ function dispatchDownplayAction(seriesName, dataName, api, excludeSeriesId) {
 }
 var LegendView_default = LegendView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/legendFilter.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/legendFilter.js
 function legendFilter(ecModel) {
   var legendModels = ecModel.findComponents({
     mainType: "legend"
@@ -69259,7 +69259,7 @@ function legendFilter(ecModel) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/legendAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/legendAction.js
 function legendSelectActionHandler(methodName, payload, ecModel) {
   var selectedMap = {};
   var isToggleSelect = methodName === "toggleSelected";
@@ -69302,7 +69302,7 @@ function installLegendAction(registers) {
   registers.registerAction("legendUnSelect", "legendunselected", curry(legendSelectActionHandler, "unSelect"));
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/installLegendPlain.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/installLegendPlain.js
 function install44(registers) {
   registers.registerComponentModel(LegendModel_default);
   registers.registerComponentView(LegendView_default);
@@ -69313,7 +69313,7 @@ function install44(registers) {
   installLegendAction(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/ScrollableLegendModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/ScrollableLegendModel.js
 var ScrollableLegendModel = (
   /** @class */
   function(_super) {
@@ -69368,7 +69368,7 @@ function mergeAndNormalizeLayoutParams2(legendModel, target, raw) {
 }
 var ScrollableLegendModel_default = ScrollableLegendModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/ScrollableLegendView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/ScrollableLegendView.js
 var Group4 = Group_default;
 var WH2 = ["width", "height"];
 var XY2 = ["x", "y"];
@@ -69672,7 +69672,7 @@ var ScrollableLegendView = (
 );
 var ScrollableLegendView_default = ScrollableLegendView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/scrollableLegendAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/scrollableLegendAction.js
 function installScrollableLegendAction(registers) {
   registers.registerAction("legendScroll", "legendscroll", function(payload, ecModel) {
     var scrollDataIndex = payload.scrollDataIndex;
@@ -69686,7 +69686,7 @@ function installScrollableLegendAction(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/installLegendScroll.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/installLegendScroll.js
 function install45(registers) {
   use(install44);
   registers.registerComponentModel(ScrollableLegendModel_default);
@@ -69694,13 +69694,13 @@ function install45(registers) {
   installScrollableLegendAction(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/legend/install.js
 function install46(registers) {
   use(install44);
   use(install45);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/InsideZoomModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/InsideZoomModel.js
 var InsideZoomModel = (
   /** @class */
   function(_super) {
@@ -69724,7 +69724,7 @@ var InsideZoomModel = (
 );
 var InsideZoomModel_default = InsideZoomModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/roams.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/roams.js
 var inner21 = makeInner();
 function setViewInfoToCoordSysRecord(api, dataZoomModel, getRange) {
   inner21(api).coordSysRecordMap.each(function(coordSysRecord) {
@@ -69880,7 +69880,7 @@ function installDataZoomRoamProcessor(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/InsideZoomView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/InsideZoomView.js
 var InsideZoomView = (
   /** @class */
   function(_super) {
@@ -70021,7 +70021,7 @@ var getDirectionInfo = {
 };
 var InsideZoomView_default = InsideZoomView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installDataZoomInside.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installDataZoomInside.js
 function install47(registers) {
   installCommon(registers);
   registers.registerComponentModel(InsideZoomModel_default);
@@ -70029,7 +70029,7 @@ function install47(registers) {
   installDataZoomRoamProcessor(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SliderZoomModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SliderZoomModel.js
 var SliderZoomModel = (
   /** @class */
   function(_super) {
@@ -70114,7 +70114,7 @@ var SliderZoomModel = (
 );
 var SliderZoomModel_default = SliderZoomModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SliderZoomView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/SliderZoomView.js
 var Rect3 = Rect_default;
 var DEFAULT_LOCATION_EDGE_GAP = 7;
 var DEFAULT_FRAME_BORDER_WIDTH = 1;
@@ -70807,20 +70807,20 @@ function getCursor(orient) {
 }
 var SliderZoomView_default = SliderZoomView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installDataZoomSlider.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/installDataZoomSlider.js
 function install48(registers) {
   registers.registerComponentModel(SliderZoomModel_default);
   registers.registerComponentView(SliderZoomView_default);
   installCommon(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataZoom/install.js
 function install49(registers) {
   use(install47);
   use(install48);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/visualDefault.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/visualDefault.js
 var visualDefault = {
   /**
    * @public
@@ -70866,7 +70866,7 @@ var defaultOption2 = {
 };
 var visualDefault_default = visualDefault;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/VisualMapModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/VisualMapModel.js
 var mapVisual2 = VisualMapping_default.mapVisual;
 var eachVisual = VisualMapping_default.eachVisual;
 var isArray2 = isArray;
@@ -71125,7 +71125,7 @@ var VisualMapModel = (
 );
 var VisualMapModel_default = VisualMapModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/ContinuousModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/ContinuousModel.js
 var DEFAULT_BAR_BOUND = [20, 140];
 var ContinuousModel = (
   /** @class */
@@ -71296,7 +71296,7 @@ function getColorStopValues(visualMapModel, valueState, dataExtent) {
 }
 var ContinuousModel_default = ContinuousModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/VisualMapView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/VisualMapView.js
 var VisualMapView = (
   /** @class */
   function(_super) {
@@ -71389,7 +71389,7 @@ var VisualMapView = (
 );
 var VisualMapView_default = VisualMapView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/helper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/helper.js
 var paramsSet = [["left", "right", "width"], ["top", "bottom", "height"]];
 function getItemAlign(visualMapModel, api, itemSize) {
   var modelOption = visualMapModel.option;
@@ -71424,7 +71424,7 @@ function makeHighDownBatch(batch, visualMapModel) {
   return batch;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/ContinuousView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/ContinuousView.js
 var linearMap3 = linearMap;
 var each15 = each;
 var mathMin11 = Math.min;
@@ -71998,7 +71998,7 @@ function getCursor2(orient) {
 }
 var ContinuousView_default = ContinuousView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/visualMapAction.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/visualMapAction.js
 var visualMapActionInfo = {
   type: "selectDataRange",
   event: "dataRangeSelected",
@@ -72014,7 +72014,7 @@ var visualMapActionHander = function(payload, ecModel) {
   });
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/visualEncoding.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/visualEncoding.js
 var visualMapEncodingHandlers = [
   {
     createOnAllSeries: true,
@@ -72074,7 +72074,7 @@ function getColorVisual(seriesModel, visualMapModel, value, valueState) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/preprocessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/preprocessor.js
 var each16 = each;
 function visualMapPreprocessor(option) {
   var visualMap = option && option.visualMap;
@@ -72108,7 +72108,7 @@ function has2(obj, name) {
   return obj && obj.hasOwnProperty && obj.hasOwnProperty(name);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/installCommon.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/installCommon.js
 var installed2 = false;
 function installCommon2(registers) {
   if (installed2) {
@@ -72125,14 +72125,14 @@ function installCommon2(registers) {
   registers.registerPreprocessor(visualMapPreprocessor);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/installVisualMapContinuous.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/installVisualMapContinuous.js
 function install50(registers) {
   registers.registerComponentModel(ContinuousModel_default);
   registers.registerComponentView(ContinuousView_default);
   installCommon2(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/PiecewiseModel.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/PiecewiseModel.js
 var PiecewiseModel = (
   /** @class */
   function(_super) {
@@ -72458,7 +72458,7 @@ function normalizeReverse(thisOption, pieceList) {
 }
 var PiecewiseModel_default = PiecewiseModel;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/PiecewiseView.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/PiecewiseView.js
 var PiecewiseVisualMapView = (
   /** @class */
   function(_super) {
@@ -72619,20 +72619,20 @@ var PiecewiseVisualMapView = (
 );
 var PiecewiseView_default = PiecewiseVisualMapView;
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/installVisualMapPiecewise.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/installVisualMapPiecewise.js
 function install51(registers) {
   registers.registerComponentModel(PiecewiseModel_default);
   registers.registerComponentView(PiecewiseView_default);
   installCommon2(registers);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/visualMap/install.js
 function install52(registers) {
   use(install50);
   use(install51);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/visual/aria.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/visual/aria.js
 var DEFAULT_OPTION = {
   label: {
     enabled: true
@@ -72809,7 +72809,7 @@ function ariaVisual(ecModel, api) {
   }
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/aria/preprocessor.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/aria/preprocessor.js
 function ariaPreprocessor(option) {
   if (!option || !option.aria) {
     return;
@@ -72826,13 +72826,13 @@ function ariaPreprocessor(option) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/aria/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/aria/install.js
 function install53(registers) {
   registers.registerPreprocessor(ariaPreprocessor);
   registers.registerVisual(registers.PRIORITY.VISUAL.ARIA, ariaVisual);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/util/conditionalExpression.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/util/conditionalExpression.js
 var RELATIONAL_EXPRESSION_OP_ALIAS_MAP = {
   value: "eq",
   // PENDING: not good for literal semantic?
@@ -73064,7 +73064,7 @@ function parseConditionalExpression(exprOption, getters) {
   return new ConditionalExpressionParsed(exprOption, getters);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/transform/filterTransform.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/transform/filterTransform.js
 var filterTransform = {
   type: "echarts:filter",
   // PENDING: enhance to filter by index rather than create new data
@@ -73112,7 +73112,7 @@ var filterTransform = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/transform/sortTransform.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/transform/sortTransform.js
 var sampleLog = "";
 if (true) {
   sampleLog = ["Valid config is like:", '{ dimension: "age", order: "asc" }', 'or [{ dimension: "age", order: "asc"], { dimension: "date", order: "desc" }]'].join(" ");
@@ -73215,13 +73215,13 @@ var sortTransform = {
   }
 };
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/transform/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/transform/install.js
 function install54(registers) {
   registers.registerTransform(filterTransform);
   registers.registerTransform(sortTransform);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/component/dataset/install.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/component/dataset/install.js
 var DatasetModel = (
   /** @class */
   function(_super) {
@@ -73271,7 +73271,7 @@ function install55(registers) {
   registers.registerComponentView(DatasetView);
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/convertPath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/convertPath.js
 var CMD5 = PathProxy_default.CMD;
 function aroundEqual(a, b) {
   return Math.abs(a - b) < 1e-5;
@@ -73465,7 +73465,7 @@ function pathToPolygons(path, scale4) {
   return polygons;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/dividePath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/dividePath.js
 function getDividingGrids(dimSize, rowDim, count2) {
   var rowSize = dimSize[rowDim];
   var columnSize = dimSize[1 - rowDim];
@@ -73771,7 +73771,7 @@ function split(path, count2) {
   return out2;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/zrender/lib/tool/morphPath.js
+// ../../../../project/JiaowuUniAdmin/node_modules/zrender/lib/tool/morphPath.js
 function alignSubpath(subpath1, subpath2) {
   var len1 = subpath1.length;
   var len2 = subpath2.length;
@@ -74350,7 +74350,7 @@ function separateMorph(fromPath, toPathList, animationOpts) {
   };
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/animation/morphTransitionHelper.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/animation/morphTransitionHelper.js
 function isMultiple(elements) {
   return isArray(elements[0]);
 }
@@ -74495,7 +74495,7 @@ function getPathList(elements) {
   return pathList;
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/lib/animation/universalTransition.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/lib/animation/universalTransition.js
 var DATA_COUNT_THRESHOLD = 1e4;
 var TRANSITION_NONE = 0;
 var TRANSITION_P2C = 1;
@@ -74998,7 +74998,7 @@ function installUniversalTransition(registers) {
   });
 }
 
-// ../../../../program/JiaowuUniAdmin/node_modules/echarts/index.js
+// ../../../../project/JiaowuUniAdmin/node_modules/echarts/index.js
 use([install2]);
 use([install]);
 use([install3, install4, install5, install7, install9, install11, install12, install13, install14, install15, install16, install18, install19, install20, install21, install22, install23, install24, install25, install26, install27, install28]);
